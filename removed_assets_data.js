@@ -1,6 +1,6 @@
 // Auto-generated from PDF - Unity Assets Being Removed March 31st, 2026
-// Total assets: 2676
-// Generated: 2026-03-03T02:26:40.910002
+// Total assets: 2679
+// Generated: 2026-03-04T00:20:30.444763
 
 const REMOVED_ASSETS = [
   {
@@ -32,88 +32,88 @@ const REMOVED_ASSETS = [
     "publisher": "18KFun Game"
   },
   {
-    "name": "18KFun Game",
-    "publisher": "Easy Path Finding- Easiest A* Path Finding support Grid and Hex Map"
+    "name": "Easy Event Kit - Easiest event dispatching tool based on Observer Pattern",
+    "publisher": "18KFun Game"
   },
   {
-    "name": "18KFun Game",
-    "publisher": "1UP GIRL - KIMI Mobile"
+    "name": "Easy Path Finding- Easiest A* Path Finding support Grid and Hex Map",
+    "publisher": "18KFun Game"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - Ayuko Mini Mobile"
+    "name": "1UP GIRL - KIMI Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - Ayane Mobile"
+    "name": "1UP GIRL - Ayuko Mini Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - IKUMI Mobile"
+    "name": "1UP GIRL - Ayane Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - Kana Mobile"
+    "name": "1UP GIRL - IKUMI Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - KASUMI Mobile"
+    "name": "1UP GIRL - Kana Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - KOYUKI Mobile"
+    "name": "1UP GIRL - KASUMI Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - Kurosaki Mobile"
+    "name": "1UP GIRL - KOYUKI Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - Mirai Mini Mobile"
+    "name": "1UP GIRL - Kurosaki Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - Mirai Mobile"
+    "name": "1UP GIRL - Mirai Mini Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - Natsuki Mobile"
+    "name": "1UP GIRL - Mirai Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - Saki Mobile"
+    "name": "1UP GIRL - Natsuki Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - Saori Mini Mobile"
+    "name": "1UP GIRL - Saki Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - Saori Mobile"
+    "name": "1UP GIRL - Saori Mini Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - SHIZUKA Mobile"
+    "name": "1UP GIRL - Saori Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - SHIZUKA Mobile II"
+    "name": "1UP GIRL - SHIZUKA Mobile",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP Character - Beatrice"
+    "name": "1UP GIRL - SHIZUKA Mobile II",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP Character - PunkMan"
+    "name": "1UP Character - Beatrice",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "1UP GIRL - SHIZUKA Mobile III"
+    "name": "1UP Character - PunkMan",
+    "publisher": "1UP Games"
   },
   {
-    "name": "1UP Games",
-    "publisher": "Easy Event Kit - Easiest event dispatching tool based on Observer Pattern"
+    "name": "1UP GIRL - SHIZUKA Mobile III",
+    "publisher": "1UP Games"
   },
   {
     "name": "1UP Character - Carter",
@@ -249,155 +249,159 @@ const REMOVED_ASSETS = [
   },
   {
     "name": "Japanese Style Living Room Set",
-    "publisher": "Chinese style combat"
+    "publisher": "894"
   },
   {
-    "name": "9005Mr",
-    "publisher": "ECS_RandomMapTemplates"
+    "name": "Chinese style combat",
+    "publisher": "9005Mr"
   },
   {
-    "name": "9005Mr",
-    "publisher": "Date Picker"
+    "name": "ECS_RandomMapTemplates",
+    "publisher": "9005Mr"
   },
   {
-    "name": "AAWW",
-    "publisher": "Omni Shader Tools"
+    "name": "Date Picker",
+    "publisher": "AAWW"
   },
   {
-    "name": "AMLOVEY",
-    "publisher": "Yade Sheet"
+    "name": "Omni Shader Tools",
+    "publisher": "AMLOVEY"
   },
   {
-    "name": "AMLOVEY",
-    "publisher": "Fantasy Girl Portraits"
+    "name": "Yade Sheet",
+    "publisher": "AMLOVEY"
   },
   {
-    "name": "AVA MX",
-    "publisher": "Fantasy Asian Girl Avatars"
+    "name": "Fantasy Girl Portraits",
+    "publisher": "AVA MX"
   },
   {
-    "name": "AVA MX",
-    "publisher": "RPG Buff Icons - Chinese Style"
+    "name": "Fantasy Asian Girl Avatars",
+    "publisher": "AVA MX"
   },
   {
-    "name": "AVA MX",
-    "publisher": "RPG Skill Icons Megapack - Multiple Colors"
+    "name": "RPG Buff Icons - Chinese Style",
+    "publisher": "AVA MX"
   },
   {
-    "name": "AVA MX",
-    "publisher": "(All-In-One) Super Mobile Controller"
+    "name": "RPG Skill Icons Megapack - Multiple Colors",
+    "publisher": "AVA MX"
   },
   {
-    "name": "AW Studio",
-    "publisher": "Globe - Data Visualizer"
+    "name": "(All-In-One) Super Mobile Controller",
+    "publisher": "AW Studio"
   },
   {
-    "name": "Abdullah Aldandarawy",
-    "publisher": "Classify - Hyper Casual Full Game Project"
+    "name": "Globe - Data Visualizer",
+    "publisher": "Abdullah Aldandarawy"
   },
   {
-    "name": "Abdullah Aldandarawy",
-    "publisher": "Another Color Picker"
+    "name": "Classify - Hyper Casual Full Game Project",
+    "publisher": "Abdullah Aldandarawy"
   },
   {
-    "name": "Abdullah Aldandarawy",
-    "publisher": "Book - Page Curl Pro"
+    "name": "Another Color Picker",
+    "publisher": "Abdullah Aldandarawy"
   },
   {
-    "name": "Abdullah Aldandarawy",
-    "publisher": "Book - Page Curl"
+    "name": "Book - Page Curl Pro",
+    "publisher": "Abdullah Aldandarawy"
   },
   {
-    "name": "Abdullah Aldandarawy",
-    "publisher": "2D Rope Editor"
+    "name": "Book - Page Curl",
+    "publisher": "Abdullah Aldandarawy"
   },
   {
-    "name": "Abdullah Aldandarawy",
-    "publisher": "Elegant Mobile UI"
+    "name": "2D Rope Editor",
+    "publisher": "Abdullah Aldandarawy"
   },
   {
-    "name": "Ada Wang",
-    "publisher": "Metal Storm UI pack"
+    "name": "Elegant Mobile UI",
+    "publisher": "Ada Wang"
   },
   {
-    "name": "Ada Wang",
-    "publisher": "RPG Icon Set Vol.1"
+    "name": "Metal Storm UI pack",
+    "publisher": "Ada Wang"
   },
   {
-    "name": "Ada Wang",
-    "publisher": "Simple History"
+    "name": "RPG Icon Set Vol.1",
+    "publisher": "Ada Wang"
   },
   {
-    "name": "Aincvy",
-    "publisher": "Liquid Glass For Unity"
+    "name": "Simple History",
+    "publisher": "Aincvy"
   },
   {
-    "name": "AitezazTech",
-    "publisher": "Native UI - Mobile UI Kit (Muk V2)"
+    "name": "Liquid Glass For Unity",
+    "publisher": "AitezazTech"
   },
   {
-    "name": "AitezazTech",
-    "publisher": "World UV Shader"
+    "name": "Native UI - Mobile UI Kit (Muk V2)",
+    "publisher": "AitezazTech"
   },
   {
-    "name": "AixiAndSai",
-    "publisher": "Sci-fi Bunker with PBR texture"
+    "name": "World UV Shader",
+    "publisher": "AixiAndSai"
   },
   {
-    "name": "Alden",
-    "publisher": "Pixel Art Weapon Icon (32x32)"
+    "name": "Sci-fi Bunker with PBR texture",
+    "publisher": "Alden"
   },
   {
-    "name": "AlexL",
-    "publisher": "ExcelForUnity"
+    "name": "Pixel Art Weapon Icon (32x32)",
+    "publisher": "AlexL"
   },
   {
-    "name": "Alvin",
-    "publisher": "Fall Down Starter Kit"
+    "name": "ExcelForUnity",
+    "publisher": "Alvin"
+  },
+  {
+    "name": "Fall Down Starter Kit",
+    "publisher": "Amoee.com"
   },
   {
     "name": "Change Color Game Kit",
     "publisher": "Amoee.com"
   },
   {
-    "name": "Amoee.com",
-    "publisher": "High Detail Bench"
+    "name": "High Detail Bench",
+    "publisher": "AoiSani"
   },
   {
-    "name": "AoiSani",
-    "publisher": "High Quality Motorcycle"
+    "name": "High Quality Motorcycle",
+    "publisher": "AoiSani"
   },
   {
-    "name": "AoiSani",
-    "publisher": "Pixel Item vol1- Potion, Mushroom & Crystal"
+    "name": "Pixel Item vol1- Potion, Mushroom & Crystal",
+    "publisher": "AoiSani"
   },
   {
-    "name": "AoiSani",
-    "publisher": "Pixel FX vol1- fire&smoke"
+    "name": "Pixel FX vol1- fire&smoke",
+    "publisher": "AoiSani"
   },
   {
-    "name": "AoiSani",
-    "publisher": "3MXImporter"
+    "name": "3MXImporter",
+    "publisher": "AppleInTree"
   },
   {
-    "name": "AppleInTree",
-    "publisher": "Muilt Render Streaming"
+    "name": "Muilt Render Streaming",
+    "publisher": "AppleInTree"
   },
   {
-    "name": "AppleInTree",
-    "publisher": "Orientation For Webgl"
+    "name": "Orientation For Webgl",
+    "publisher": "AppleInTree"
   },
   {
-    "name": "AppleInTree",
-    "publisher": "Quickly HDR Wireframe"
+    "name": "Quickly HDR Wireframe",
+    "publisher": "AppleInTree"
   },
   {
-    "name": "AppleInTree",
-    "publisher": "Food Icon"
+    "name": "Food Icon",
+    "publisher": "Ashramart"
   },
   {
-    "name": "Ashramart",
-    "publisher": "AssetBundleMaster"
+    "name": "AssetBundleMaster",
+    "publisher": "AssetBundle Integrated Solution"
   },
   {
     "name": "Dictator",
@@ -484,115 +488,115 @@ const REMOVED_ASSETS = [
     "publisher": "BA Workshop"
   },
   {
-    "name": "AssetBundle Integrated Solution",
-    "publisher": "Skyboxes for Demonic Wars"
+    "name": "Skyboxes for Demonic Wars",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "8K Skyboxes - Starfield & Nebula"
+    "name": "8K Skyboxes - Starfield & Nebula",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Skyboxes for Horror Games"
+    "name": "Skyboxes for Horror Games",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Cartoon Comic Skyboxes Pack 2"
+    "name": "Cartoon Comic Skyboxes Pack 2",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "200 Skyboxes in 1"
+    "name": "200 Skyboxes in 1",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Cartoon Comic Skyboxes"
+    "name": "Cartoon Comic Skyboxes",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Desert Skybox Pack"
+    "name": "Desert Skybox Pack",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Free HDR Skyboxes Pack"
+    "name": "Free HDR Skyboxes Pack",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "8K Skybox Pack Free"
+    "name": "8K Skybox Pack Free",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "High Fantasy Avatar Frame Pack"
+    "name": "High Fantasy Avatar Frame Pack",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Leaf Particles - Autumn Maple Leaves"
+    "name": "Leaf Particles - Autumn Maple Leaves",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Confetti FX Pro"
+    "name": "Confetti FX Pro",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Arrow Rain"
+    "name": "Arrow Rain",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Fireworks Celebration"
+    "name": "Fireworks Celebration",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Coin Particles"
+    "name": "Coin Particles",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Money Particles - US Dollar, CNY, JPY and Euro"
+    "name": "Money Particles - US Dollar, CNY, JPY and Euro",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Petal Particles - Cherry Petals"
+    "name": "Petal Particles - Cherry Petals",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Embers with Smoke"
+    "name": "Embers with Smoke",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Floating Embers"
+    "name": "Floating Embers",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Snow VFX Pack"
+    "name": "Snow VFX Pack",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Cartoon Rain & Blood Rain"
+    "name": "Cartoon Rain & Blood Rain",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Floating Dust & Falling Ash"
+    "name": "Floating Dust & Falling Ash",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Easy Portal"
+    "name": "Easy Portal",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Free Pixel Character with Expressions + Battle Image"
+    "name": "Free Pixel Character with Expressions + Battle Image",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "255 Characters - Monster Pack"
+    "name": "255 Characters - Monster Pack",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Pixel Enemies Pack"
+    "name": "Pixel Enemies Pack",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Pixel Characters with Expressions + Battle Images"
+    "name": "Pixel Characters with Expressions + Battle Images",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
+    "name": "223 Battle Backgrounds - Evil Land (for apocalyptic/Sci-Fi/horror RPG ga",
     "publisher": "BG Studio"
   },
   {
@@ -608,132 +612,132 @@ const REMOVED_ASSETS = [
     "publisher": "BG Studio"
   },
   {
-    "name": "223 Battle Backgrounds - Evil Land (for apocalyptic/Sci-Fi/horror RPG ga",
-    "publisher": "Rectangle World Tiles - Free"
+    "name": "Rectangle World Tiles - Free",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Pixel Battle Backgrounds - Pack 2"
+    "name": "Pixel Battle Backgrounds - Pack 2",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Pixel Battle Backgrounds - Pack 1"
+    "name": "Pixel Battle Backgrounds - Pack 1",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Pixel Battle Backgrounds - Pack 3"
+    "name": "Pixel Battle Backgrounds - Pack 3",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Pixel Battle Backgrounds Mega Pack"
+    "name": "Pixel Battle Backgrounds Mega Pack",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "409 Battle Backgrounds - Fantasy RPG Games"
+    "name": "409 Battle Backgrounds - Fantasy RPG Games",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Vertical Scrolling Background Pack"
+    "name": "Vertical Scrolling Background Pack",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Rectangle World Tiles"
+    "name": "Rectangle World Tiles",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "2D Scrolling Parallax Background Pack"
+    "name": "2D Scrolling Parallax Background Pack",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "2D Isometric Basic Tiles"
+    "name": "2D Isometric Basic Tiles",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "2D Isometric Environment Decorations Pack"
+    "name": "2D Isometric Environment Decorations Pack",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "2D Isometric Modular Tileset – Brick & Plank"
+    "name": "2D Isometric Modular Tileset – Brick & Plank",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "2D Isometric Modular Tileset – Desert & Frozen"
+    "name": "2D Isometric Modular Tileset – Desert & Frozen",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "2D Isometric Modular Tileset – Grass & Lava"
+    "name": "2D Isometric Modular Tileset – Grass & Lava",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "2D Isometric Modular Tileset – Dirt & Gravel"
+    "name": "2D Isometric Modular Tileset – Dirt & Gravel",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "2D Isometric Modular Tileset – Flesh, Blood & Skull"
+    "name": "2D Isometric Modular Tileset – Flesh, Blood & Skull",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "1000+ 2D Isometric Tiles, Decorations & Animated Terrains"
+    "name": "1000+ 2D Isometric Tiles, Decorations & Animated Terrains",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Casual Cute Dog Avatar Icon Collection"
+    "name": "Casual Cute Dog Avatar Icon Collection",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Casual Cute Animal Avatar Icon Collection"
+    "name": "Casual Cute Animal Avatar Icon Collection",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Fantasy Character Portraits - Dark and Light"
+    "name": "Fantasy Character Portraits - Dark and Light",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Fantasy Character Portraits - Mythic Realm"
+    "name": "Fantasy Character Portraits - Mythic Realm",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Fantasy Character Portraits - Normal and Zombie"
+    "name": "Fantasy Character Portraits - Normal and Zombie",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Fantasy Cartoon Character Portraits - 288 Expressive Avatars"
+    "name": "Fantasy Cartoon Character Portraits - 288 Expressive Avatars",
+    "publisher": "BG Studio"
   },
   {
-    "name": "BG Studio",
-    "publisher": "Cute Stylized Anime Girl Character | URP Ready"
+    "name": "Cute Stylized Anime Girl Character | URP Ready",
+    "publisher": "BOXTANK2012"
   },
   {
-    "name": "BOXTANK2012",
-    "publisher": "BoxTank-Police"
+    "name": "BoxTank-Police",
+    "publisher": "BOXTANK2012"
   },
   {
-    "name": "BOXTANK2012",
-    "publisher": "Perlin Noise Master"
+    "name": "Perlin Noise Master",
+    "publisher": "BOXTANK2012"
   },
   {
-    "name": "BOXTANK2012",
-    "publisher": "Voronoi Noise Master"
+    "name": "Voronoi Noise Master",
+    "publisher": "BOXTANK2012"
   },
   {
-    "name": "BOXTANK2012",
-    "publisher": "Thickness Baker To VertexColor"
+    "name": "Thickness Baker To VertexColor",
+    "publisher": "BOXTANK2012"
   },
   {
-    "name": "BOXTANK2012",
-    "publisher": "Mobile Crystal Shader"
+    "name": "Mobile Crystal Shader",
+    "publisher": "BOXTANK2012"
   },
   {
-    "name": "BOXTANK2012",
-    "publisher": "Egyptian Prop Collection"
+    "name": "Egyptian Prop Collection",
+    "publisher": "BR2GAME"
   },
   {
-    "name": "BR2GAME",
-    "publisher": "Sci-fi Screen Collection"
+    "name": "Sci-fi Screen Collection",
+    "publisher": "BR2GAME"
   },
   {
-    "name": "BR2GAME",
-    "publisher": "Trace Inspector"
+    "name": "Trace Inspector",
+    "publisher": "BW"
   },
   {
     "name": "Spirit-Level",
@@ -2117,7 +2121,11 @@ const REMOVED_ASSETS = [
   },
   {
     "name": "EZSoftBone",
-    "publisher": "EZAnimation"
+    "publisher": "EZ"
+  },
+  {
+    "name": "EZAnimation",
+    "publisher": "EZ"
   },
   {
     "name": "Quick Logo/Picture Designer",
@@ -3964,116 +3972,116 @@ const REMOVED_ASSETS = [
     "publisher": "LucasEvan"
   },
   {
-    "name": "Lucine",
-    "publisher": "Modular Pier and Dock 3D Pack"
+    "name": "Realistic FPS Weapon & Turret Pack – Flamethrower, Gatling, Sniper with",
+    "publisher": "Lucine"
   },
   {
-    "name": "Lucine",
-    "publisher": "Stylized Halloween Bundle"
+    "name": "Modular Pier and Dock 3D Pack",
+    "publisher": "Lucine"
   },
   {
-    "name": "Lucine",
-    "publisher": "Modular Water Gun Bundle"
+    "name": "Stylized Halloween Bundle",
+    "publisher": "Lucine"
   },
   {
-    "name": "Lucine",
-    "publisher": "50+ Weapons Effects FX"
+    "name": "Modular Water Gun Bundle",
+    "publisher": "Lucine"
   },
   {
-    "name": "MAKO Studio",
-    "publisher": "Quick Drag & Drop | Level Placer"
+    "name": "50+ Weapons Effects FX",
+    "publisher": "MAKO Studio"
   },
   {
-    "name": "MBS Studio",
-    "publisher": "Root Select Locker | Faster Hierarchy Workflow"
+    "name": "Quick Drag & Drop | Level Placer",
+    "publisher": "MBS Studio"
   },
   {
-    "name": "MBS Studio",
-    "publisher": "Mobile Native Unified"
+    "name": "Root Select Locker | Faster Hierarchy Workflow",
+    "publisher": "MBS Studio"
   },
   {
-    "name": "MIRAGINE",
-    "publisher": "Easy Arrangement"
+    "name": "Mobile Native Unified",
+    "publisher": "MIRAGINE"
   },
   {
-    "name": "MK Studio",
-    "publisher": "Easy Message Box"
+    "name": "Easy Arrangement",
+    "publisher": "MK Studio"
   },
   {
-    "name": "MK Studio",
-    "publisher": "Easy Tweak"
+    "name": "Easy Message Box",
+    "publisher": "MK Studio"
   },
   {
-    "name": "MK Studio",
-    "publisher": "MR Cartoon Town"
+    "name": "Easy Tweak",
+    "publisher": "MK Studio"
   },
   {
-    "name": "MR.L",
-    "publisher": "Texture(universal)-hight quality"
+    "name": "MR Cartoon Town",
+    "publisher": "MR.L"
   },
   {
-    "name": "MR.L",
-    "publisher": "2D Pixel Art Emotion Icons"
+    "name": "Texture(universal)-hight quality",
+    "publisher": "MR.L"
   },
   {
-    "name": "MS_Studio_0",
-    "publisher": "GalForUnity"
+    "name": "2D Pixel Art Emotion Icons",
+    "publisher": "MS_Studio_0"
   },
   {
-    "name": "MUXIGameStudio",
-    "publisher": "Centrosaurus"
+    "name": "GalForUnity",
+    "publisher": "MUXIGameStudio"
   },
   {
-    "name": "Maomao.Yan",
-    "publisher": "Prenocephale"
+    "name": "Centrosaurus",
+    "publisher": "Maomao.Yan"
   },
   {
-    "name": "Maomao.Yan",
-    "publisher": "VRCamera"
+    "name": "Prenocephale",
+    "publisher": "Maomao.Yan"
   },
   {
-    "name": "Mary",
-    "publisher": "Chinese character ZHAO"
+    "name": "VRCamera",
+    "publisher": "Mary"
   },
   {
-    "name": "MaskJump",
-    "publisher": "FlexMotion"
+    "name": "Chinese character ZHAO",
+    "publisher": "MaskJump"
   },
   {
-    "name": "Mathieu Philippe",
-    "publisher": "Unitune"
+    "name": "FlexMotion",
+    "publisher": "Mathieu Philippe"
   },
   {
-    "name": "Mathieu Philippe",
-    "publisher": "Timeline Plus - Enhanced Timeline Tracks"
+    "name": "Unitune",
+    "publisher": "Mathieu Philippe"
   },
   {
-    "name": "MaxTiger",
-    "publisher": "Timeline Shader Track"
+    "name": "Timeline Plus - Enhanced Timeline Tracks",
+    "publisher": "MaxTiger"
   },
   {
-    "name": "MaxTiger",
-    "publisher": "Humanoid 3D Charactor JiaoJiao & LiMing"
+    "name": "Timeline Shader Track",
+    "publisher": "MaxTiger"
   },
   {
-    "name": "Maything Studio",
-    "publisher": "Dirty Sewers Pipeline"
+    "name": "Humanoid 3D Charactor JiaoJiao & LiMing",
+    "publisher": "Maything Studio"
   },
   {
-    "name": "Maything Studio",
-    "publisher": "China Street Facilities"
+    "name": "Dirty Sewers Pipeline",
+    "publisher": "Maything Studio"
   },
   {
-    "name": "Maything Studio",
-    "publisher": "China Lounge Bridge"
+    "name": "China Street Facilities",
+    "publisher": "Maything Studio"
   },
   {
-    "name": "Maything Studio",
-    "publisher": "Steampunk Spider chariot"
+    "name": "China Lounge Bridge",
+    "publisher": "Maything Studio"
   },
   {
-    "name": "Maything Studio",
-    "publisher": "Realistic FPS Weapon & Turret Pack – Flamethrower, Gatling, Sniper with"
+    "name": "Steampunk Spider chariot",
+    "publisher": "Maything Studio"
   },
   {
     "name": "Low Polygon Bike",
@@ -5229,47 +5237,51 @@ const REMOVED_ASSETS = [
   },
   {
     "name": "VR No Shake",
-    "publisher": "OOForm"
+    "publisher": "OB"
   },
   {
-    "name": "OORoom Studio",
-    "publisher": "2D GUI Animation Framework/动画框架"
+    "name": "OOForm",
+    "publisher": "OORoom Studio"
   },
   {
-    "name": "Oinkkkk",
-    "publisher": "Oriental Lamp Collections"
+    "name": "2D GUI Animation Framework/动画框架",
+    "publisher": "Oinkkkk"
   },
   {
-    "name": "Old Man Studio",
-    "publisher": "Essentials - General Settings"
+    "name": "Oriental Lamp Collections",
+    "publisher": "Old Man Studio"
   },
   {
-    "name": "OmnInteractive",
-    "publisher": "UTeleApp - Tools for Telegram Mini Apps"
+    "name": "Essentials - General Settings",
+    "publisher": "OmnInteractive"
   },
   {
-    "name": "OmnInteractive",
-    "publisher": "UGraphQuery - Tools for GraphQL"
+    "name": "UTeleApp - Tools for Telegram Mini Apps",
+    "publisher": "OmnInteractive"
   },
   {
-    "name": "OmnInteractive",
-    "publisher": "Simple Shader--Shader Graph(HDRP)"
+    "name": "UGraphQuery - Tools for GraphQL",
+    "publisher": "OmnInteractive"
   },
   {
-    "name": "Organic Nori",
-    "publisher": "A* View"
+    "name": "Simple Shader--Shader Graph(HDRP)",
+    "publisher": "Organic Nori"
   },
   {
-    "name": "Oswin",
-    "publisher": "3D Realistic Explosions"
+    "name": "A* View",
+    "publisher": "Oswin"
   },
   {
-    "name": "OverClockVFX",
-    "publisher": "Ez Asset Graph"
+    "name": "3D Realistic Explosions",
+    "publisher": "OverClockVFX"
   },
   {
-    "name": "PPixel",
-    "publisher": "CatchLight"
+    "name": "Ez Asset Graph",
+    "publisher": "PPixel"
+  },
+  {
+    "name": "CatchLight",
+    "publisher": "PROMETHEUS VISION TECHNO"
   },
   {
     "name": "TextureChannelAssigner",
@@ -5312,575 +5324,575 @@ const REMOVED_ASSETS = [
     "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "PROMETHEUS VISION TECHNO",
-    "publisher": "RPG Game UI"
+    "name": "RPG Game UI",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "25 RPG Characters Pack"
+    "name": "25 RPG Characters Pack",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "5 RPG Characters - Orc"
+    "name": "5 RPG Characters - Orc",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Boss: Pixel Hydra"
+    "name": "Boss: Pixel Hydra",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Boss: Pixel Greedy Mouth"
+    "name": "Boss: Pixel Greedy Mouth",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Boss: Pixel Devil Woman"
+    "name": "Boss: Pixel Devil Woman",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Boss: Pixel Devil Man"
+    "name": "Boss: Pixel Devil Man",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Boss: Pixel Demon Skull"
+    "name": "Boss: Pixel Demon Skull",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Zombie Warrior"
+    "name": "Pixel Zombie Warrior",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Werewolf"
+    "name": "Pixel Werewolf",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Warrior"
+    "name": "Pixel Warrior",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Trainer"
+    "name": "Pixel Trainer",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Swordsman"
+    "name": "Pixel Swordsman",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Stingy"
+    "name": "Pixel Stingy",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Skeleton Mage"
+    "name": "Pixel Skeleton Mage",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Scholar"
+    "name": "Pixel Scholar",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Skeleton"
+    "name": "Pixel Skeleton",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Savagery"
+    "name": "Pixel Savagery",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Puppeteer"
+    "name": "Pixel Puppeteer",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Puppet"
+    "name": "Pixel Puppet",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Predator"
+    "name": "Pixel Predator",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Poison Mage"
+    "name": "Pixel Poison Mage",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Piper"
+    "name": "Pixel Piper",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Pharmacist"
+    "name": "Pixel Pharmacist",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Parasite"
+    "name": "Pixel Parasite",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Ogre"
+    "name": "Pixel Ogre",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Mask"
+    "name": "Pixel Mask",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Mutant"
+    "name": "Pixel Mutant",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Magic Creature"
+    "name": "Pixel Magic Creature",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Magic Armor"
+    "name": "Pixel Magic Armor",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Lava Beast"
+    "name": "Pixel Lava Beast",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Ice Mage"
+    "name": "Pixel Ice Mage",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Ice Skull"
+    "name": "Pixel Ice Skull",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Ice Beast"
+    "name": "Pixel Ice Beast",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Howling"
+    "name": "Pixel Howling",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Glutton"
+    "name": "Pixel Glutton",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Ghoul"
+    "name": "Pixel Ghoul",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Flame Imp"
+    "name": "Pixel Flame Imp",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Fire Mage"
+    "name": "Pixel Fire Mage",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Explorer"
+    "name": "Pixel Explorer",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Divine Mage"
+    "name": "Pixel Divine Mage",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Cyclops"
+    "name": "Pixel Cyclops",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Cannibal"
+    "name": "Pixel Cannibal",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Bloody Creature"
+    "name": "Pixel Bloody Creature",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Blood Mage"
+    "name": "Pixel Blood Mage",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Blood Devil"
+    "name": "Pixel Blood Devil",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Black Mage"
+    "name": "Pixel Black Mage",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Alchemist"
+    "name": "Pixel Alchemist",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Boss: Pixel Golem"
+    "name": "Boss: Pixel Golem",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Warrior - Male"
+    "name": "Pixel Warrior - Male",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Samurai - Male"
+    "name": "Pixel Samurai - Male",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Ninja - Male"
+    "name": "Pixel Ninja - Male",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Mage - Male"
+    "name": "Pixel Mage - Male",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Hackbuteer - Male"
+    "name": "Pixel Hackbuteer - Male",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Berserker - Male"
+    "name": "Pixel Berserker - Male",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Barbarian - Female"
+    "name": "Pixel Barbarian - Female",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Assassin - Male"
+    "name": "Pixel Assassin - Male",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Archer - Male"
+    "name": "Pixel Archer - Male",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Knight - Male"
+    "name": "Pixel Knight - Male",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Berserker"
+    "name": "Pixel Berserker",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Polymer"
+    "name": "Pixel Polymer",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Mage - Female"
+    "name": "Pixel Mage - Female",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "5 RPG Characters - Demon"
+    "name": "5 RPG Characters - Demon",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "5 Dragons Pack 4"
+    "name": "5 Dragons Pack 4",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "5 Dragons pack 3"
+    "name": "5 Dragons pack 3",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Devil"
+    "name": "Pixel Devil",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "20 Animated Pixel Characters Pack 2"
+    "name": "20 Animated Pixel Characters Pack 2",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "10 Animated Pixel Bosses Pack"
+    "name": "10 Animated Pixel Bosses Pack",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "20 Animated Pixel Characters Pack 1"
+    "name": "20 Animated Pixel Characters Pack 1",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Boss: Pixel Bride"
+    "name": "Boss: Pixel Bride",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Boss: Pixel Headless Knight"
+    "name": "Boss: Pixel Headless Knight",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "5 Dragons Pack 1"
+    "name": "5 Dragons Pack 1",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "5 Dragons Pack 2"
+    "name": "5 Dragons Pack 2",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "5 RPG Characters - Evil"
+    "name": "5 RPG Characters - Evil",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "5 RPG Characters - Undead"
+    "name": "5 RPG Characters - Undead",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Black Knight"
+    "name": "Pixel Black Knight",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Boss: Pixel Fire Dragon"
+    "name": "Boss: Pixel Fire Dragon",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Boss: Pixel Bloody Eye"
+    "name": "Boss: Pixel Bloody Eye",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Fire Dragon"
+    "name": "Pixel Fire Dragon",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Archer - Female"
+    "name": "Pixel Archer - Female",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "20 Animated Pixel Characters Pack 3"
+    "name": "20 Animated Pixel Characters Pack 3",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Monk"
+    "name": "Pixel Monk",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Witch - Female"
+    "name": "Pixel Witch - Female",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Warrior - Female"
+    "name": "Pixel Warrior - Female",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Pastor - Female"
+    "name": "Pixel Pastor - Female",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Blood Witch"
+    "name": "Pixel Blood Witch",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Blood Witch Master"
+    "name": "Pixel Blood Witch Master",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Doctor"
+    "name": "Pixel Doctor",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Mummy"
+    "name": "Pixel Mummy",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Cybergirl"
+    "name": "Pixel Cybergirl",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Small Polymer"
+    "name": "Pixel Small Polymer",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Fanatic"
+    "name": "Pixel Fanatic",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Greedy Mouth"
+    "name": "Pixel Greedy Mouth",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Bloody Monsters"
+    "name": "Pixel Bloody Monsters",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Shaman"
+    "name": "Pixel Shaman",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Pigman"
+    "name": "Pixel Pigman",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Amazon Girl"
+    "name": "Pixel Amazon Girl",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Shadow"
+    "name": "Pixel Shadow",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Magma Land Tileset"
+    "name": "Magma Land Tileset",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Grassland Tileset"
+    "name": "Grassland Tileset",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Dark Land Tileset"
+    "name": "Dark Land Tileset",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Snowfield Tileset"
+    "name": "Snowfield Tileset",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Desert Tileset"
+    "name": "Desert Tileset",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Art - Cave"
+    "name": "Pixel Art - Cave",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Art - Snow Field"
+    "name": "Pixel Art - Snow Field",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Art - Vault"
+    "name": "Pixel Art - Vault",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Plain Land Tileset"
+    "name": "Plain Land Tileset",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Art - Dining Hall"
+    "name": "Pixel Art - Dining Hall",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Art - Fire Lake"
+    "name": "Pixel Art - Fire Lake",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Art - Snake Forest"
+    "name": "Pixel Art - Snake Forest",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Art - Blood Poll"
+    "name": "Pixel Art - Blood Poll",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Pixel Art Platformer Pack"
+    "name": "Pixel Art Platformer Pack",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "45 RPG Game Skill Icons"
+    "name": "45 RPG Game Skill Icons",
+    "publisher": "Pixel Cattle Games"
   },
   {
-    "name": "Pixel Cattle Games",
-    "publisher": "Galactic Survivor: Top-Down Shoot'em Up Survival Game Template"
+    "name": "Galactic Survivor: Top-Down Shoot'em Up Survival Game Template",
+    "publisher": "PixelNinja"
   },
   {
-    "name": "PixelNinja",
-    "publisher": "Cardboard/Carton Boxes"
+    "name": "Cardboard/Carton Boxes",
+    "publisher": "Pixeled Bun"
   },
   {
-    "name": "Pixeled Bun",
-    "publisher": "RPG/Fantasy Food Items Pack"
+    "name": "RPG/Fantasy Food Items Pack",
+    "publisher": "Pixeled Bun"
   },
   {
-    "name": "Pixeled Bun",
-    "publisher": "Bloody Melee Weapons Pack Apocalypse"
+    "name": "Bloody Melee Weapons Pack Apocalypse",
+    "publisher": "Pixeled Bun"
   },
   {
-    "name": "Pixeled Bun",
-    "publisher": "Breakable Jars, Vases, Pots"
+    "name": "Breakable Jars, Vases, Pots",
+    "publisher": "Pixeled Bun"
   },
   {
-    "name": "Pixeled Bun",
-    "publisher": "Fantasy monster: Slime"
+    "name": "Fantasy monster: Slime",
+    "publisher": "Planescape Game Studio"
   },
   {
-    "name": "Planescape Game Studio",
-    "publisher": "Fantasy monster: Rabbit Knight"
+    "name": "Fantasy monster: Rabbit Knight",
+    "publisher": "Planescape Game Studio"
   },
   {
-    "name": "Planescape Game Studio",
-    "publisher": "Fantasy monster: Big Beetle"
+    "name": "Fantasy monster: Big Beetle",
+    "publisher": "Planescape Game Studio"
   },
   {
-    "name": "Planescape Game Studio",
-    "publisher": "Fantasy monster: Earth fairy"
+    "name": "Fantasy monster: Earth fairy",
+    "publisher": "Planescape Game Studio"
   },
   {
-    "name": "Planescape Game Studio",
-    "publisher": "Fantasy monster: Kitty"
+    "name": "Fantasy monster: Kitty",
+    "publisher": "Planescape Game Studio"
   },
   {
-    "name": "Planescape Game Studio",
-    "publisher": "Fantasy monster: Mushroom house"
+    "name": "Fantasy monster: Mushroom house",
+    "publisher": "Planescape Game Studio"
   },
   {
-    "name": "Planescape Game Studio",
-    "publisher": "Fantasy monster: Ice Witch"
+    "name": "Fantasy monster: Ice Witch",
+    "publisher": "Planescape Game Studio"
   },
   {
-    "name": "Planescape Game Studio",
-    "publisher": "Fantasy monster: Cat Knight"
+    "name": "Fantasy monster: Cat Knight",
+    "publisher": "Planescape Game Studio"
   },
   {
-    "name": "Planescape Game Studio",
-    "publisher": "Fantasy monster: Flame Warrior"
+    "name": "Fantasy monster: Flame Warrior",
+    "publisher": "Planescape Game Studio"
   },
   {
-    "name": "Planescape Game Studio",
-    "publisher": "Fantasy monster: Noble"
+    "name": "Fantasy monster: Noble",
+    "publisher": "Planescape Game Studio"
   },
   {
-    "name": "Planescape Game Studio",
-    "publisher": "Animated Female Warrior"
+    "name": "Animated Female Warrior",
+    "publisher": "PlayPlusPlus"
   },
   {
-    "name": "PlayPlusPlus",
-    "publisher": "Animated Police Man"
+    "name": "Animated Police Man",
+    "publisher": "PlayPlusPlus"
   },
   {
-    "name": "PlayPlusPlus",
-    "publisher": "Big Kim"
+    "name": "Big Kim",
+    "publisher": "PlayPlusPlus"
   },
   {
-    "name": "PlayPlusPlus",
-    "publisher": "9 Cartoon Characters"
+    "name": "9 Cartoon Characters",
+    "publisher": "PlayPlusPlus"
   },
   {
-    "name": "PlayPlusPlus",
-    "publisher": "13 Cartoon Buildings"
+    "name": "13 Cartoon Buildings",
+    "publisher": "PlayPlusPlus"
   },
   {
-    "name": "PlayPlusPlus",
-    "publisher": "Realistic Alien Plants"
+    "name": "Realistic Alien Plants",
+    "publisher": "Potato123"
   },
   {
-    "name": "Potato123",
-    "publisher": "Asia Hong Kong Road Sign"
+    "name": "Asia Hong Kong Road Sign",
+    "publisher": "Potato123"
   },
   {
-    "name": "Potato123",
-    "publisher": "Battle Songs of Steel Souls 鋼魂の戦歌"
+    "name": "Battle Songs of Steel Souls 鋼魂の戦歌",
+    "publisher": "Poygus"
   },
   {
-    "name": "Poygus",
-    "publisher": "Dragon Spirit War Songs 龍魂戰歌"
+    "name": "Dragon Spirit War Songs 龍魂戰歌",
+    "publisher": "Poygus"
   },
   {
-    "name": "Poygus",
-    "publisher": "Dragon Ascending the World 龍騰天下"
+    "name": "Dragon Ascending the World 龍騰天下",
+    "publisher": "Poygus"
   },
   {
-    "name": "Poygus",
-    "publisher": "Echoes of Honor and Fire 名誉と火のエコー"
+    "name": "Echoes of Honor and Fire 名誉と火のエコー",
+    "publisher": "Poygus"
   },
   {
-    "name": "Poygus",
-    "publisher": "Classroom Daydreams (Lofi School Themed Music Vol. 1)"
+    "name": "Classroom Daydreams (Lofi School Themed Music Vol. 1)",
+    "publisher": "Poygus"
   },
   {
-    "name": "Poygus",
-    "publisher": "Eternity in a Dewdrop 露映永恒"
+    "name": "Eternity in a Dewdrop 露映永恒",
+    "publisher": "Poygus"
   },
   {
-    "name": "Poygus",
-    "publisher": "Legacy: The Sound of Valor (Heroic Music for TTRPG & Games)"
+    "name": "Legacy: The Sound of Valor (Heroic Music for TTRPG & Games)",
+    "publisher": "Poygus"
   },
   {
-    "name": "Poygus",
+    "name": "Where the Great Bell Doesn't Toll 巨鐘不鳴之處 (Chinese Themed Dark Am",
     "publisher": "Poygus"
   },
   {
@@ -5932,879 +5944,883 @@ const REMOVED_ASSETS = [
     "publisher": "Pro.Z.x"
   },
   {
-    "name": "Where the Great Bell Doesn't Toll 巨鐘不鳴之處 (Chinese Themed Dark Am",
-    "publisher": "Origami Cartoon ToonCars"
+    "name": "Origami Cartoon ToonCars",
+    "publisher": "Pro.Z.x"
   },
   {
-    "name": "Pro.Z.x",
-    "publisher": "Cartoon Origami Cars Pack"
+    "name": "Cartoon Origami Cars Pack",
+    "publisher": "Pro.Z.x"
   },
   {
-    "name": "Pro.Z.x",
-    "publisher": "World War II - 33-Tanks"
+    "name": "World War II - 33-Tanks",
+    "publisher": "Pro.Z.x"
   },
   {
-    "name": "Pro.Z.x",
-    "publisher": "Pt - Lowpoly Steam Car"
+    "name": "Pt - Lowpoly Steam Car",
+    "publisher": "PureThink"
   },
   {
-    "name": "PureThink",
-    "publisher": "Lowpoly Steam Trains"
+    "name": "Lowpoly Steam Trains",
+    "publisher": "PureThink"
   },
   {
-    "name": "PureThink",
-    "publisher": "Lightmass For Unity"
+    "name": "Lightmass For Unity",
+    "publisher": "PuzzleClubs"
   },
   {
-    "name": "PuzzleClubs",
-    "publisher": "New Chinese Furniture - Bed 01 (URP)"
+    "name": "New Chinese Furniture - Bed 01 (URP)",
+    "publisher": "QD.Studio"
   },
   {
-    "name": "QD.Studio",
-    "publisher": "NewChineseLivingRoom"
+    "name": "NewChineseLivingRoom",
+    "publisher": "QD.Studio"
   },
   {
-    "name": "QD.Studio",
-    "publisher": "Hospital Ward - Asian Hospital Room"
+    "name": "Hospital Ward - Asian Hospital Room",
+    "publisher": "QF Studio"
   },
   {
-    "name": "QF Studio",
-    "publisher": "Old Room - 80s Chinese House"
+    "name": "Old Room - 80s Chinese House",
+    "publisher": "QF Studio"
   },
   {
-    "name": "QF Studio",
-    "publisher": "Fantasy RPG GUI - Ink Style"
+    "name": "Fantasy RPG GUI - Ink Style",
+    "publisher": "QF Studio"
   },
   {
-    "name": "QF Studio",
-    "publisher": "Asian Hand-Painted Avatars - Chinese Style"
+    "name": "Asian Hand-Painted Avatars - Chinese Style",
+    "publisher": "QF Studio"
   },
   {
-    "name": "QF Studio",
-    "publisher": "Asian Hand-Painted Character Portrait"
+    "name": "Asian Hand-Painted Character Portrait",
+    "publisher": "QF Studio"
   },
   {
-    "name": "QF Studio",
-    "publisher": "Asian Hand-Painted Character Avatars Mega Pack"
+    "name": "Asian Hand-Painted Character Avatars Mega Pack",
+    "publisher": "QF Studio"
   },
   {
-    "name": "QF Studio",
-    "publisher": "Hand-Painted Map - Chinese Ink Style"
+    "name": "Hand-Painted Map - Chinese Ink Style",
+    "publisher": "QF Studio"
   },
   {
-    "name": "QF Studio",
-    "publisher": "Hand-Painted RPG Background - Ink Style"
+    "name": "Hand-Painted RPG Background - Ink Style",
+    "publisher": "QF Studio"
   },
   {
-    "name": "QF Studio",
-    "publisher": "PhysicalBone"
+    "name": "PhysicalBone",
+    "publisher": "Qiming Xu"
   },
   {
-    "name": "Qiming Xu",
-    "publisher": "Arrow line removal game"
+    "name": "Arrow line removal game",
+    "publisher": "Qstar Studio"
   },
   {
-    "name": "Qstar Studio",
-    "publisher": "Blood Effect I"
+    "name": "Blood Effect I",
+    "publisher": "QuanGan"
   },
   {
-    "name": "QuanGan",
-    "publisher": "Shake Wave I"
+    "name": "Shake Wave I",
+    "publisher": "QuanGan"
   },
   {
-    "name": "QuanGan",
-    "publisher": "Magic Fire Package"
+    "name": "Magic Fire Package",
+    "publisher": "QuanGan"
   },
   {
-    "name": "QuanGan",
-    "publisher": "Fireworks effect package"
+    "name": "Fireworks effect package",
+    "publisher": "QuanGan"
   },
   {
-    "name": "QuanGan",
-    "publisher": "Facebook Instant Game Exporter"
+    "name": "Facebook Instant Game Exporter",
+    "publisher": "Question Mark Games"
   },
   {
-    "name": "Question Mark Games",
-    "publisher": "RNPolygonUI"
+    "name": "RNPolygonUI",
+    "publisher": "RN"
   },
   {
     "name": "RNTween",
-    "publisher": "Attribute Forge - Conditional Buff & Behaviour Injection Tool"
+    "publisher": "RN"
   },
   {
-    "name": "Raffica",
-    "publisher": "Clean Flat Icons"
+    "name": "Attribute Forge - Conditional Buff & Behaviour Injection Tool",
+    "publisher": "Raffica"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "UGUI Super TreeView"
+    "name": "Clean Flat Icons",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "UGUI Super ScrollView"
+    "name": "UGUI Super TreeView",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Cartoon Farm Building"
+    "name": "UGUI Super ScrollView",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Cartoon Diamond Jewel Gem"
+    "name": "Cartoon Farm Building",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "2000+ Cartoon GUI Icons"
+    "name": "Cartoon Diamond Jewel Gem",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Cartoon Bubble Buttons"
+    "name": "2000+ Cartoon GUI Icons",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Clean Flat Icons 4"
+    "name": "Cartoon Bubble Buttons",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Clean Flat Icons 5"
+    "name": "Clean Flat Icons 4",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Clean Flat Icons 2"
+    "name": "Clean Flat Icons 5",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Cartoon Animated Coins"
+    "name": "Clean Flat Icons 2",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Super Icon - Animated Loading Pack"
+    "name": "Cartoon Animated Coins",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Clean Flat Icons 3"
+    "name": "Super Icon - Animated Loading Pack",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "4200 Common UI Buttons"
+    "name": "Clean Flat Icons 3",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "4300 Cartoon UI Buttons"
+    "name": "4200 Common UI Buttons",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "5000 Flat UI Buttons"
+    "name": "4300 Cartoon UI Buttons",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "4500 Cartoon GUI Elements"
+    "name": "5000 Flat UI Buttons",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Cartoon Candy Cookie"
+    "name": "4500 Cartoon GUI Elements",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "6000+ Flat Buttons Icons Pack"
+    "name": "Cartoon Candy Cookie",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "6600 Cartoon GUI Elements"
+    "name": "6000+ Flat Buttons Icons Pack",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Clean Cartoon GUI Pack"
+    "name": "6600 Cartoon GUI Elements",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Flat Cartoon GUI Pack"
+    "name": "Clean Cartoon GUI Pack",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Clean Flat Buttons"
+    "name": "Flat Cartoon GUI Pack",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Super Clean UI - Flat Pack"
+    "name": "Clean Flat Buttons",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "RainbowArt",
-    "publisher": "Particle Bake Pro"
+    "name": "Super Clean UI - Flat Pack",
+    "publisher": "RainbowArt"
   },
   {
-    "name": "Ray's Art",
-    "publisher": "Blackjack Full Game"
+    "name": "Particle Bake Pro",
+    "publisher": "Ray's Art"
   },
   {
-    "name": "RayMix",
-    "publisher": "Swing Bone"
+    "name": "Blackjack Full Game",
+    "publisher": "RayMix"
   },
   {
-    "name": "RayMix",
-    "publisher": "AssetHelper"
+    "name": "Swing Bone",
+    "publisher": "RayMix"
   },
   {
-    "name": "ReCosmos",
-    "publisher": "Fairy Tale Simple"
+    "name": "AssetHelper",
+    "publisher": "ReCosmos"
   },
   {
-    "name": "RedScarf",
-    "publisher": "Fairy Tale"
+    "name": "Fairy Tale Simple",
+    "publisher": "RedScarf"
   },
   {
-    "name": "RedScarf",
-    "publisher": "Unity Editor Script"
+    "name": "Fairy Tale",
+    "publisher": "RedScarf"
   },
   {
-    "name": "RedScarf",
-    "publisher": "Easy Water Physic -VR Ready"
+    "name": "Unity Editor Script",
+    "publisher": "RedScarf"
   },
   {
-    "name": "Redance",
-    "publisher": "AVIF Loader"
+    "name": "Easy Water Physic -VR Ready",
+    "publisher": "Redance"
   },
   {
-    "name": "Reform Sim",
-    "publisher": "Shader Converter - URP"
+    "name": "AVIF Loader",
+    "publisher": "Reform Sim"
   },
   {
-    "name": "Reform Sim",
-    "publisher": "Shader Converter"
+    "name": "Shader Converter - URP",
+    "publisher": "Reform Sim"
   },
   {
-    "name": "Reform Sim",
-    "publisher": "Shader Converter - HDRP"
+    "name": "Shader Converter",
+    "publisher": "Reform Sim"
   },
   {
-    "name": "Reform Sim",
-    "publisher": "RaindropEffect-URP"
+    "name": "Shader Converter - HDRP",
+    "publisher": "Reform Sim"
   },
   {
-    "name": "Reform Sim",
-    "publisher": "RaindropEffect"
+    "name": "RaindropEffect-URP",
+    "publisher": "Reform Sim"
   },
   {
-    "name": "Reform Sim",
-    "publisher": "RaindropEffect-HDRP"
+    "name": "RaindropEffect",
+    "publisher": "Reform Sim"
   },
   {
-    "name": "Reform Sim",
-    "publisher": "Layered Blend Mask"
+    "name": "RaindropEffect-HDRP",
+    "publisher": "Reform Sim"
   },
   {
-    "name": "Ren Games Studio",
-    "publisher": "RichTap CoreSDK For Unity"
+    "name": "Layered Blend Mask",
+    "publisher": "Ren Games Studio"
   },
   {
-    "name": "RichTap",
-    "publisher": "CartoonMagicFX_AOE_v1"
+    "name": "RichTap CoreSDK For Unity",
+    "publisher": "RichTap"
   },
   {
-    "name": "RickyFX",
-    "publisher": "Class Room Environment"
+    "name": "CartoonMagicFX_AOE_v1",
+    "publisher": "RickyFX"
   },
   {
-    "name": "RipMuxiv",
-    "publisher": "Stylized Monster Hammer"
+    "name": "Class Room Environment",
+    "publisher": "RipMuxiv"
   },
   {
-    "name": "RipMuxiv",
-    "publisher": "Simple Magnifying Glass Shader"
+    "name": "Stylized Monster Hammer",
+    "publisher": "RipMuxiv"
   },
   {
-    "name": "RipMuxiv",
-    "publisher": "RPSimpleWater"
+    "name": "Simple Magnifying Glass Shader",
+    "publisher": "RipMuxiv"
   },
   {
-    "name": "RipMuxiv",
-    "publisher": "Planar shadows"
+    "name": "RPSimpleWater",
+    "publisher": "RipMuxiv"
   },
   {
-    "name": "RipMuxiv",
-    "publisher": "LightMapToVertexColor"
+    "name": "Planar shadows",
+    "publisher": "RipMuxiv"
   },
   {
-    "name": "RipMuxiv",
-    "publisher": "BakeTextureToVertexColor"
+    "name": "LightMapToVertexColor",
+    "publisher": "RipMuxiv"
   },
   {
-    "name": "RipMuxiv",
-    "publisher": "named Human skeleton"
+    "name": "BakeTextureToVertexColor",
+    "publisher": "RipMuxiv"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Blood circulation system 3D Model"
+    "name": "named Human skeleton",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "digestive system 3D Model"
+    "name": "Blood circulation system 3D Model",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Realistic Frog pack"
+    "name": "digestive system 3D Model",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Mech Ninja Spider"
+    "name": "Realistic Frog pack",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Wooden PoseMan"
+    "name": "Mech Ninja Spider",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Interior Sofa Tea Table"
+    "name": "Wooden PoseMan",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "A lightweight airport model"
+    "name": "Interior Sofa Tea Table",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "townhouses"
+    "name": "A lightweight airport model",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Complete Refinery 2 Packs"
+    "name": "townhouses",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Real City Block"
+    "name": "Complete Refinery 2 Packs",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Ancient ChinaTown building"
+    "name": "Real City Block",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Refinery vol 3"
+    "name": "Ancient ChinaTown building",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Refinery vol4"
+    "name": "Refinery vol 3",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Refinery Vol5"
+    "name": "Refinery vol4",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "industry tanks chimney set"
+    "name": "Refinery Vol5",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Industrial oil tank"
+    "name": "industry tanks chimney set",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Refinery"
+    "name": "Industrial oil tank",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Wastewater Treatment Plant"
+    "name": "Refinery",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Dam"
+    "name": "Wastewater Treatment Plant",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Refinery vol1"
+    "name": "Dam",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Complete Refinery Vol 2"
+    "name": "Refinery vol1",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Ancient chinese archway"
+    "name": "Complete Refinery Vol 2",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Ancient Asian buildings Pack"
+    "name": "Ancient chinese archway",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Ancient Chinese Palace"
+    "name": "Ancient Asian buildings Pack",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Octagonal Ancient City Tower"
+    "name": "Ancient Chinese Palace",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Wooden Wharf"
+    "name": "Octagonal Ancient City Tower",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "The ancient Chinese palace"
+    "name": "Wooden Wharf",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Mahjong"
+    "name": "The ancient Chinese palace",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Disposable mask"
+    "name": "Mahjong",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Medical mask and face shield"
+    "name": "Disposable mask",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Asian billboard pack"
+    "name": "Medical mask and face shield",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Low Poly Props Pro"
+    "name": "Asian billboard pack",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "15 low poly models"
+    "name": "Low Poly Props Pro",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Natural gas station"
+    "name": "15 low poly models",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Low Poly Bedroom"
+    "name": "Natural gas station",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Office"
+    "name": "Low Poly Bedroom",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Chinese paper Lantern Collection"
+    "name": "Office",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Japanese lantern collection"
+    "name": "Chinese paper Lantern Collection",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "kunai"
+    "name": "Japanese lantern collection",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Marine climate research vessel"
+    "name": "kunai",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Stylized Bricks Materials"
+    "name": "Marine climate research vessel",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Stylized Lava materials"
+    "name": "Stylized Bricks Materials",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "90+ Stylized Ground Textures"
+    "name": "Stylized Lava materials",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "low poly terrain texture pack"
+    "name": "90+ Stylized Ground Textures",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "low poly terrain texture pack pro"
+    "name": "low poly terrain texture pack",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Stylized water and Ice materials"
+    "name": "low poly terrain texture pack pro",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Library"
+    "name": "Stylized water and Ice materials",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Bathroom vanity"
+    "name": "Library",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Viaduct flyover"
+    "name": "Bathroom vanity",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Rob luo",
-    "publisher": "Arduino Packet Transport Protocol"
+    "name": "Viaduct flyover",
+    "publisher": "Rob luo"
   },
   {
-    "name": "Roman Pelmegov",
-    "publisher": "Chroma Key Set v1.1"
+    "name": "Arduino Packet Transport Protocol",
+    "publisher": "Roman Pelmegov"
   },
   {
-    "name": "Roman Pelmegov",
-    "publisher": "cute little pig"
+    "name": "Chroma Key Set v1.1",
+    "publisher": "Roman Pelmegov"
   },
   {
-    "name": "Rong",
-    "publisher": "Low Poly Human Heart"
+    "name": "cute little pig",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "Low Poly Cattle"
+    "name": "Low Poly Human Heart",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "Low Poly Sika Deer"
+    "name": "Low Poly Cattle",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "White Rabbit Low Poly Model"
+    "name": "Low Poly Sika Deer",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "Low Poly Squirrel"
+    "name": "White Rabbit Low Poly Model",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "Squirrel Low Poly Model"
+    "name": "Low Poly Squirrel",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "Low Poly Cartoon Town"
+    "name": "Squirrel Low Poly Model",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "3D Mahjong Pack"
+    "name": "Low Poly Cartoon Town",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "LowPoly Mahjong Pack"
+    "name": "3D Mahjong Pack",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "Rong Gallery"
+    "name": "LowPoly Mahjong Pack",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "Virtual Art Space Volume 1"
+    "name": "Rong Gallery",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "F22 Raptor fighter"
+    "name": "Virtual Art Space Volume 1",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "Chengdu J-20 stealth fighter"
+    "name": "F22 Raptor fighter",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "Low Poly Colourful Flowers"
+    "name": "Chengdu J-20 stealth fighter",
+    "publisher": "Rong"
   },
   {
-    "name": "Rong",
-    "publisher": "C#Like hot update framework"
+    "name": "Low Poly Colourful Flowers",
+    "publisher": "Rong"
   },
   {
-    "name": "RongRong",
-    "publisher": "C#LikeFree Hot Update Framework"
+    "name": "C#Like hot update framework",
+    "publisher": "RongRong"
   },
   {
-    "name": "RongRong",
-    "publisher": "Generate Code Manager"
+    "name": "C#LikeFree Hot Update Framework",
+    "publisher": "RongRong"
   },
   {
-    "name": "RongRong",
-    "publisher": "RToDo"
+    "name": "Generate Code Manager",
+    "publisher": "RongRong"
   },
   {
-    "name": "RoofenGame",
-    "publisher": "Survivors Roguelike Kit"
+    "name": "RToDo",
+    "publisher": "RoofenGame"
   },
   {
-    "name": "RoofenGame",
-    "publisher": "Common Stat Pro"
+    "name": "Survivors Roguelike Kit",
+    "publisher": "RoofenGame"
   },
   {
-    "name": "RoofenGame",
-    "publisher": "Common Stat"
+    "name": "Common Stat Pro",
+    "publisher": "RoofenGame"
   },
   {
-    "name": "RoofenGame",
-    "publisher": "ManaVR Texture Drawer"
+    "name": "Common Stat",
+    "publisher": "RoofenGame"
   },
   {
-    "name": "Rui Wang",
-    "publisher": "ManaVR Image Sequencer"
+    "name": "ManaVR Texture Drawer",
+    "publisher": "Rui Wang"
   },
   {
-    "name": "Rui Wang",
-    "publisher": "RuntimeMapMaker3D-Pro"
+    "name": "ManaVR Image Sequencer",
+    "publisher": "Rui Wang"
   },
   {
-    "name": "RuntimeCube",
-    "publisher": "Fantasy Hero Creator-Modular 2D Character Creator"
+    "name": "RuntimeMapMaker3D-Pro",
+    "publisher": "RuntimeCube"
   },
   {
-    "name": "Ryan.Lan",
-    "publisher": "Realistic Western Fantasy UI Kit"
+    "name": "Fantasy Hero Creator-Modular 2D Character Creator",
+    "publisher": "Ryan.Lan"
   },
   {
-    "name": "Ryan.Lan",
-    "publisher": "Wind Turbine Generator"
+    "name": "Realistic Western Fantasy UI Kit",
+    "publisher": "Ryan.Lan"
   },
   {
-    "name": "RyuGiKen",
-    "publisher": "Simple Wind Turbine with LODs"
+    "name": "Wind Turbine Generator",
+    "publisher": "RyuGiKen"
   },
   {
-    "name": "RyuGiKen",
-    "publisher": "Classical Crossbow"
+    "name": "Simple Wind Turbine with LODs",
+    "publisher": "RyuGiKen"
   },
   {
-    "name": "RyuGiKen",
-    "publisher": "HD dice with LODs"
+    "name": "Classical Crossbow",
+    "publisher": "RyuGiKen"
   },
   {
-    "name": "RyuGiKen",
-    "publisher": "Wheel 01 with LODs"
+    "name": "HD dice with LODs",
+    "publisher": "RyuGiKen"
   },
   {
-    "name": "RyuGiKen",
-    "publisher": "Wheel 02 with LODs"
+    "name": "Wheel 01 with LODs",
+    "publisher": "RyuGiKen"
   },
   {
-    "name": "RyuGiKen",
-    "publisher": "Pixel style Skill Icon"
+    "name": "Wheel 02 with LODs",
+    "publisher": "RyuGiKen"
   },
   {
-    "name": "S.Dragon Stutio",
-    "publisher": "Modular Cute Fantasy Character Pack #1"
+    "name": "Pixel style Skill Icon",
+    "publisher": "S.Dragon Stutio"
   },
   {
-    "name": "SEMA Game Studio",
-    "publisher": "Cute Dog - Shiba Inu"
+    "name": "Modular Cute Fantasy Character Pack #1",
+    "publisher": "SEMA Game Studio"
   },
   {
-    "name": "SEMA Game Studio",
-    "publisher": "Cute Cat"
+    "name": "Cute Dog - Shiba Inu",
+    "publisher": "SEMA Game Studio"
   },
   {
-    "name": "SEMA Game Studio",
-    "publisher": "Cute Dog - Husky"
+    "name": "Cute Cat",
+    "publisher": "SEMA Game Studio"
   },
   {
-    "name": "SEMA Game Studio",
-    "publisher": "Cute Dog - French Bulldog"
+    "name": "Cute Dog - Husky",
+    "publisher": "SEMA Game Studio"
   },
   {
-    "name": "SEMA Game Studio",
-    "publisher": "Cute Cat - British Shorthair"
+    "name": "Cute Dog - French Bulldog",
+    "publisher": "SEMA Game Studio"
   },
   {
-    "name": "SEMA Game Studio",
-    "publisher": "Cute Dog - German Shepherd"
+    "name": "Cute Cat - British Shorthair",
+    "publisher": "SEMA Game Studio"
   },
   {
-    "name": "SEMA Game Studio",
-    "publisher": "Cute Dog - Labrador"
+    "name": "Cute Dog - German Shepherd",
+    "publisher": "SEMA Game Studio"
   },
   {
-    "name": "SEMA Game Studio",
-    "publisher": "Cute Fantasy Monster"
+    "name": "Cute Dog - Labrador",
+    "publisher": "SEMA Game Studio"
   },
   {
-    "name": "SEMA Game Studio",
-    "publisher": "Lighter Sounds"
+    "name": "Cute Fantasy Monster",
+    "publisher": "SEMA Game Studio"
   },
   {
-    "name": "SITIAN",
-    "publisher": "Forest Sounds 2023 Lite"
+    "name": "Lighter Sounds",
+    "publisher": "SITIAN"
   },
   {
-    "name": "SITIAN",
-    "publisher": "Forest Sounds 2023"
+    "name": "Forest Sounds 2023 Lite",
+    "publisher": "SITIAN"
   },
   {
-    "name": "SITIAN",
-    "publisher": "CameraImageCapture"
+    "name": "Forest Sounds 2023",
+    "publisher": "SITIAN"
   },
   {
-    "name": "SUISUISHOU",
-    "publisher": "SimpleCamera"
+    "name": "CameraImageCapture",
+    "publisher": "SUISUISHOU"
   },
   {
-    "name": "SUNRUI",
-    "publisher": "Advanced Color Picker"
+    "name": "SimpleCamera",
+    "publisher": "SUNRUI"
   },
   {
-    "name": "SWAN DEV",
-    "publisher": "Screenshot Helper Plus"
+    "name": "Advanced Color Picker",
+    "publisher": "SWAN DEV"
   },
   {
-    "name": "SWAN DEV",
-    "publisher": "Screenshot Helper Free"
+    "name": "Screenshot Helper Plus",
+    "publisher": "SWAN DEV"
   },
   {
-    "name": "SWAN DEV",
-    "publisher": "Pro GIF Recorder Toolkit"
+    "name": "Screenshot Helper Free",
+    "publisher": "SWAN DEV"
   },
   {
-    "name": "SWAN DEV",
-    "publisher": "Pro TexturePlayer"
+    "name": "Pro GIF Recorder Toolkit",
+    "publisher": "SWAN DEV"
   },
   {
-    "name": "SWAN DEV",
-    "publisher": "ImageLoader"
+    "name": "Pro TexturePlayer",
+    "publisher": "SWAN DEV"
   },
   {
-    "name": "SWAN DEV",
-    "publisher": "Pro GIF Universal"
+    "name": "ImageLoader",
+    "publisher": "SWAN DEV"
   },
   {
-    "name": "SWAN DEV",
-    "publisher": "Pro GIF"
+    "name": "Pro GIF Universal",
+    "publisher": "SWAN DEV"
   },
   {
-    "name": "SWAN DEV",
-    "publisher": "Mobile Media Plugin"
+    "name": "Pro GIF",
+    "publisher": "SWAN DEV"
   },
   {
-    "name": "SWAN DEV",
-    "publisher": "Drag and Drop Files"
+    "name": "Mobile Media Plugin",
+    "publisher": "SWAN DEV"
   },
   {
-    "name": "Schwarzer",
-    "publisher": "Oboe for Unity"
+    "name": "Drag and Drop Files",
+    "publisher": "Schwarzer"
   },
   {
-    "name": "Schwarzer",
-    "publisher": "Debug Inspector"
+    "name": "Oboe for Unity",
+    "publisher": "Schwarzer"
   },
   {
-    "name": "SeanL",
-    "publisher": "Low poly Japan New Year toys props pack"
+    "name": "Debug Inspector",
+    "publisher": "SeanL"
   },
   {
-    "name": "SearKitchen",
-    "publisher": "Animatext - Text Animation System"
+    "name": "Low poly Japan New Year toys props pack",
+    "publisher": "SearKitchen"
   },
   {
-    "name": "Seeley Studio",
-    "publisher": "Pixel_2D_Character_Skeleton"
+    "name": "Animatext - Text Animation System",
+    "publisher": "Seeley Studio"
   },
   {
-    "name": "SeraphCompany",
-    "publisher": "Pixel_2D_Character_Spider"
+    "name": "Pixel_2D_Character_Skeleton",
+    "publisher": "SeraphCompany"
   },
   {
-    "name": "SeraphCompany",
-    "publisher": "MagicBox"
+    "name": "Pixel_2D_Character_Spider",
+    "publisher": "SeraphCompany"
   },
   {
-    "name": "SevenStrike",
-    "publisher": "Dynamic Water Shader"
+    "name": "MagicBox",
+    "publisher": "SevenStrike"
   },
   {
-    "name": "ShaderHelper",
-    "publisher": "World War 1 German trench sets"
+    "name": "Dynamic Water Shader",
+    "publisher": "ShaderHelper"
   },
   {
-    "name": "ShanghaiWindy",
-    "publisher": "France World War 1 Tank FT-17"
+    "name": "World War 1 German trench sets",
+    "publisher": "ShanghaiWindy"
   },
   {
-    "name": "ShanghaiWindy",
-    "publisher": "Scene Build System"
+    "name": "France World War 1 Tank FT-17",
+    "publisher": "ShanghaiWindy"
   },
   {
-    "name": "ShanghaiWindy",
-    "publisher": "Video Codec"
+    "name": "Scene Build System",
+    "publisher": "ShanghaiWindy"
   },
   {
-    "name": "ShanguUncle",
-    "publisher": "Hologram Video Capture"
+    "name": "Video Codec",
+    "publisher": "ShanguUncle"
   },
   {
-    "name": "ShanguUncle",
-    "publisher": "GemSee Prince Teng Pavilion"
+    "name": "Hologram Video Capture",
+    "publisher": "ShanguUncle"
   },
   {
-    "name": "Shawn GemSee",
-    "publisher": "Mofumofu Effect"
+    "name": "GemSee Prince Teng Pavilion",
+    "publisher": "Shawn GemSee"
   },
   {
-    "name": "ShuiMUMU",
-    "publisher": "Ourea"
+    "name": "Mofumofu Effect",
+    "publisher": "ShuiMUMU"
   },
   {
-    "name": "ShuiMUMU",
-    "publisher": "Nephele"
+    "name": "Ourea",
+    "publisher": "ShuiMUMU"
   },
   {
-    "name": "ShuiMUMU",
-    "publisher": "Laya2Unity"
+    "name": "Nephele",
+    "publisher": "ShuiMUMU"
   },
   {
-    "name": "SidneyStudio",
-    "publisher": "SS1_TacticalTeam"
+    "name": "Laya2Unity",
+    "publisher": "SidneyStudio"
   },
   {
-    "name": "SimpleColor Studios",
-    "publisher": "SS1_Bandit_CharactersPackage_PBR"
+    "name": "SS1_TacticalTeam",
+    "publisher": "SimpleColor Studios"
   },
   {
-    "name": "SimpleColor Studios",
-    "publisher": "SimpleColor_S1_Bandit_PBR"
+    "name": "SS1_Bandit_CharactersPackage_PBR",
+    "publisher": "SimpleColor Studios"
   },
   {
-    "name": "SimpleColor Studios",
-    "publisher": "SS2_SpecialForces"
+    "name": "SimpleColor_S1_Bandit_PBR",
+    "publisher": "SimpleColor Studios"
   },
   {
-    "name": "SimpleColor Studios",
-    "publisher": "SS2_Marines"
+    "name": "SS2_SpecialForces",
+    "publisher": "SimpleColor Studios"
   },
   {
-    "name": "SimpleColor Studios",
-    "publisher": "SS1_Bandit_WeaponsPackage_PBR"
+    "name": "SS2_Marines",
+    "publisher": "SimpleColor Studios"
   },
   {
-    "name": "SimpleColor Studios",
-    "publisher": "DOOM TRUCK POLY"
+    "name": "SS1_Bandit_WeaponsPackage_PBR",
+    "publisher": "SimpleColor Studios"
   },
   {
-    "name": "SimpleColor Studios",
-    "publisher": "PolyWorld_VOL01_DoomV8"
+    "name": "DOOM TRUCK POLY",
+    "publisher": "SimpleColor Studios"
   },
   {
-    "name": "SimpleColor Studios",
-    "publisher": "DOOM PLANE POLY"
+    "name": "PolyWorld_VOL01_DoomV8",
+    "publisher": "SimpleColor Studios"
   },
   {
-    "name": "SimpleColor Studios",
-    "publisher": "Chinese Word Display Handwrite"
+    "name": "DOOM PLANE POLY",
+    "publisher": "SimpleColor Studios"
   },
   {
-    "name": "Siwwc",
-    "publisher": "Classic MMO UI"
+    "name": "Chinese Word Display Handwrite",
+    "publisher": "Siwwc"
   },
   {
-    "name": "SkyLife",
-    "publisher": "DualBehaviour - Integrated LifeCycle Functions (Optimization)"
+    "name": "Classic MMO UI",
+    "publisher": "SkyLife"
   },
   {
-    "name": "SkyRiver",
-    "publisher": "Easy ScriptableObject Manager"
+    "name": "DualBehaviour - Integrated LifeCycle Functions (Optimization)",
+    "publisher": "SkyRiver"
   },
   {
-    "name": "Skyrush",
-    "publisher": "SmalBoxHollow"
+    "name": "Easy ScriptableObject Manager",
+    "publisher": "Skyrush"
   },
   {
-    "name": "SmalBox",
-    "publisher": "Foreach"
+    "name": "SmalBoxHollow",
+    "publisher": "SmalBox"
   },
   {
-    "name": "Small & Cheap, But Useful",
-    "publisher": "Excel2Lua"
+    "name": "Foreach",
+    "publisher": "Small & Cheap, But Useful"
   },
   {
-    "name": "Small & Cheap, But Useful",
+    "name": "Excel2Lua",
+    "publisher": "Small & Cheap, But Useful"
+  },
+  {
+    "name": "ExcelConfigExporter - Export Excel data to C#/Json/Lua etc in Windows",
     "publisher": "Snowwolf Studio"
   },
   {
@@ -6852,107 +6868,107 @@ const REMOVED_ASSETS = [
     "publisher": "Soft Kitty Studio"
   },
   {
-    "name": "Soft Kitty Studio",
-    "publisher": "Master Map|Navigation System - MapRenderer,MiniMap,WorldMap,GPS"
-  },
-  {
-    "name": "Soft Kitty Studio",
-    "publisher": "Master Inventory Engine - Crafting/Loot/Trade/Skills/HotBar"
-  },
-  {
-    "name": "Soft Kitty Studio",
-    "publisher": "Deformable Drawline Tool"
-  },
-  {
-    "name": "SpRiseMax-Chen",
-    "publisher": "Vivid Color-Mix Tool"
-  },
-  {
-    "name": "SpRiseMax-Chen",
-    "publisher": "Puppet Drawline Tool"
-  },
-  {
-    "name": "SpRiseMax-Chen",
-    "publisher": "Puppet Drawline Tool - Edge Version"
-  },
-  {
-    "name": "SpRiseMax-Chen",
-    "publisher": "The Ruined Room of Asia"
-  },
-  {
-    "name": "SpadesTrader",
-    "publisher": "Fantasy Treasure Chest 2D Pack"
-  },
-  {
-    "name": "SparkLoader Studio",
-    "publisher": "SWireframe"
-  },
-  {
-    "name": "Spr1ngd",
-    "publisher": "StalkerME - Nested Prefab"
-  },
-  {
-    "name": "StalkerME",
-    "publisher": "Magic Circle Skills"
-  },
-  {
-    "name": "StarryMoMo Studio",
-    "publisher": "Magic Shield Bubbles"
-  },
-  {
-    "name": "StarryMoMo Studio",
-    "publisher": "Future Girl Amanda"
-  },
-  {
-    "name": "StoneSnail",
-    "publisher": "Dream World - Female Ice Magician"
-  },
-  {
-    "name": "StoneSnail",
-    "publisher": "FireFireWord_Ninga"
-  },
-  {
-    "name": "StoneSnail",
-    "publisher": "DreamWord_Greek warrior"
-  },
-  {
-    "name": "StoneSnail",
-    "publisher": "ExcelConfigExporter - Export Excel data to C#/Json/Lua etc in Windows a"
-  },
-  {
     "name": "Master RPG Bundle1 - Character Creator|Fantasy Weapons|Inventory Eng",
-    "publisher": "DreamWord_Demon God"
+    "publisher": "Soft Kitty Studio"
   },
   {
-    "name": "StoneSnail",
-    "publisher": "Dream World - Death"
+    "name": "Master Map|Navigation System - MapRenderer,MiniMap,WorldMap,GPS",
+    "publisher": "Soft Kitty Studio"
   },
   {
-    "name": "StoneSnail",
-    "publisher": "Dream Word Fairies"
+    "name": "Master Inventory Engine - Crafting/Loot/Trade/Skills/HotBar",
+    "publisher": "Soft Kitty Studio"
   },
   {
-    "name": "StoneSnail",
-    "publisher": "Forest Warriors"
+    "name": "Deformable Drawline Tool",
+    "publisher": "SpRiseMax-Chen"
   },
   {
-    "name": "StoneSnail",
-    "publisher": "Succubus"
+    "name": "Vivid Color-Mix Tool",
+    "publisher": "SpRiseMax-Chen"
   },
   {
-    "name": "StoneSnail",
-    "publisher": "Little Red Riding Hood"
+    "name": "Puppet Drawline Tool",
+    "publisher": "SpRiseMax-Chen"
   },
   {
-    "name": "StoneSnail",
-    "publisher": "Small Red Dragon"
+    "name": "Puppet Drawline Tool - Edge Version",
+    "publisher": "SpRiseMax-Chen"
   },
   {
-    "name": "StoneSnail",
-    "publisher": "The Fairy Flower"
+    "name": "The Ruined Room of Asia",
+    "publisher": "SpadesTrader"
   },
   {
-    "name": "StoneSnail",
+    "name": "Fantasy Treasure Chest 2D Pack",
+    "publisher": "SparkLoader Studio"
+  },
+  {
+    "name": "SWireframe",
+    "publisher": "Spr1ngd"
+  },
+  {
+    "name": "StalkerME - Nested Prefab",
+    "publisher": "StalkerME"
+  },
+  {
+    "name": "Magic Circle Skills",
+    "publisher": "StarryMoMo Studio"
+  },
+  {
+    "name": "Magic Shield Bubbles",
+    "publisher": "StarryMoMo Studio"
+  },
+  {
+    "name": "Future Girl Amanda",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "Dream World - Female Ice Magician",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "FireFireWord_Ninga",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "DreamWord_Greek warrior",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "DreamWord_Demon God",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "Dream World - Death",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "Dream Word Fairies",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "Forest Warriors",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "Succubus",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "Little Red Riding Hood",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "Small Red Dragon",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "The Fairy Flower",
+    "publisher": "StoneSnail"
+  },
+  {
+    "name": "FieldScriptWriter-Generate the code of find subgameobject's component",
     "publisher": "StraussDu"
   },
   {
@@ -7044,1640 +7060,1640 @@ const REMOVED_ASSETS = [
     "publisher": "Swan Animations"
   },
   {
-    "name": "FieldScriptWriter-Generate the code of find subgameobject's component",
-    "publisher": "Night Sky Skybox Part-3"
+    "name": "Night Sky Skybox Part-3",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Night Sky Skybox Part-4"
+    "name": "Night Sky Skybox Part-4",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Night Sky Skybox Part-5"
+    "name": "Night Sky Skybox Part-5",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Space Skybox - Part 2"
+    "name": "Space Skybox - Part 2",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Sci-Fi Space Skybox Pack -1"
+    "name": "Sci-Fi Space Skybox Pack -1",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Sci-Fi Space Skybox Pack -2"
+    "name": "Sci-Fi Space Skybox Pack -2",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Sci-Fi Space Skybox Pack -3"
+    "name": "Sci-Fi Space Skybox Pack -3",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Sci-Fi Space Skybox Pack -4"
+    "name": "Sci-Fi Space Skybox Pack -4",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Fantasy Skybox - Arctic Clouds"
+    "name": "Fantasy Skybox - Arctic Clouds",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Fantasy Skybox - Day"
+    "name": "Fantasy Skybox - Day",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Fantasy Skybox - Crimson Sky"
+    "name": "Fantasy Skybox - Crimson Sky",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Fantasy Skybox - Sunset Sky"
+    "name": "Fantasy Skybox - Sunset Sky",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Fantasy Skybox - Twilight"
+    "name": "Fantasy Skybox - Twilight",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Fantasy Skybox - Night"
+    "name": "Fantasy Skybox - Night",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Space Skybox - Part 1"
+    "name": "Space Skybox - Part 1",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Night Sky Skybox Part-1"
+    "name": "Night Sky Skybox Part-1",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Lens Effects - Dirt and Bloom!"
+    "name": "Lens Effects - Dirt and Bloom!",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Underwater Effect!"
+    "name": "Underwater Effect!",
+    "publisher": "Swan Animations"
   },
   {
-    "name": "Swan Animations",
-    "publisher": "Fighter Weapon System Template"
+    "name": "Fighter Weapon System Template",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Air Warfare Pro"
+    "name": "Air Warfare Pro",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Fighter Complete Template Pro"
+    "name": "Fighter Complete Template Pro",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Fighter Complete Template"
+    "name": "Fighter Complete Template",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Fighter Flight Template Pro"
+    "name": "Fighter Flight Template Pro",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Fighter Flight Template"
+    "name": "Fighter Flight Template",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Air Warfare Pro Template"
+    "name": "Air Warfare Pro Template",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Air Warfare"
+    "name": "Air Warfare",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "AssetBundle Framework"
+    "name": "AssetBundle Framework",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Fighter HUD System"
+    "name": "Fighter HUD System",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "UGUI Touch Input Component"
+    "name": "UGUI Touch Input Component",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "GPU Animation Baker Basic"
+    "name": "GPU Animation Baker Basic",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Sight Detect System"
+    "name": "Sight Detect System",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Tank Track Simulator"
+    "name": "Tank Track Simulator",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Genetic Algorithm"
+    "name": "Genetic Algorithm",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Finite State Machine System"
+    "name": "Finite State Machine System",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Artificial Neural Networks"
+    "name": "Artificial Neural Networks",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "SwordMaster Hologram Shader"
+    "name": "SwordMaster Hologram Shader",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "SwordMaster Toon Shader"
+    "name": "SwordMaster Toon Shader",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "SwordMaster Dissolve Shaders"
+    "name": "SwordMaster Dissolve Shaders",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "SwordMaster Outline Shaders"
+    "name": "SwordMaster Outline Shaders",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "SwordMaster Rim Shaders"
+    "name": "SwordMaster Rim Shaders",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "SwordMaster Ghost Shader"
+    "name": "SwordMaster Ghost Shader",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "SwordMaster Pencil Sketch Shader"
+    "name": "SwordMaster Pencil Sketch Shader",
+    "publisher": "Sword-Master"
   },
   {
-    "name": "Sword-Master",
-    "publisher": "Round Corner Image"
+    "name": "Round Corner Image",
+    "publisher": "Swordman"
   },
   {
-    "name": "Swordman",
-    "publisher": "Blur RawImage UGUI"
+    "name": "Blur RawImage UGUI",
+    "publisher": "Swordman"
   },
   {
-    "name": "Swordman",
-    "publisher": "AssetBundle Redundancy Checker"
+    "name": "AssetBundle Redundancy Checker",
+    "publisher": "Sylohit"
   },
   {
-    "name": "Sylohit",
-    "publisher": "200+ Equip Icons"
+    "name": "200+ Equip Icons",
+    "publisher": "Sylohit"
   },
   {
-    "name": "Sylohit",
-    "publisher": "Versatile Runtime Inspector"
+    "name": "Versatile Runtime Inspector",
+    "publisher": "Symbol"
   },
   {
-    "name": "Symbol",
-    "publisher": "Simple Prototype Character"
+    "name": "Simple Prototype Character",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Capybara | Stylized Critters"
+    "name": "Capybara | Stylized Critters",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Stylized Cute Critters Set"
+    "name": "Stylized Cute Critters Set",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Sheep | Stylized Critters"
+    "name": "Sheep | Stylized Critters",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Pig | Stylized Critters"
+    "name": "Pig | Stylized Critters",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Capybara | Stylized Critters (Lite)"
+    "name": "Capybara | Stylized Critters (Lite)",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Corgi | Stylized Critters"
+    "name": "Corgi | Stylized Critters",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "WildBoar | Stylized Critters"
+    "name": "WildBoar | Stylized Critters",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Cartoon Jelly Slime"
+    "name": "Cartoon Jelly Slime",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Stylized Stone Package"
+    "name": "Stylized Stone Package",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Wasteland Base Set"
+    "name": "Wasteland Base Set",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Wasteland Base Set（Lite）"
+    "name": "Wasteland Base Set（Lite）",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Symphonie Nature Essentials Pack: Forest Environment"
+    "name": "Symphonie Nature Essentials Pack: Forest Environment",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "RPG Environments Kit-Desert"
+    "name": "RPG Environments Kit-Desert",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Desert Elements Starter Kit"
+    "name": "Desert Elements Starter Kit",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Stylized Forest Kit"
+    "name": "Stylized Forest Kit",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Stylized Island Kit"
+    "name": "Stylized Island Kit",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Realistic Ruins"
+    "name": "Realistic Ruins",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Realistic Ruins - Free Sample"
+    "name": "Realistic Ruins - Free Sample",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Wasteland Base Set - Old TeleVision（Free）"
+    "name": "Wasteland Base Set - Old TeleVision（Free）",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Stylized Battleship"
+    "name": "Stylized Battleship",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Stylized Tree & Grass Samples"
+    "name": "Stylized Tree & Grass Samples",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "SimpleJiggle"
+    "name": "SimpleJiggle",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Simple TV Screen Shader"
+    "name": "Simple TV Screen Shader",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Easy Water (Ocean ＆ Lakes)"
+    "name": "Easy Water (Ocean ＆ Lakes)",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "SimpleAvatar"
+    "name": "SimpleAvatar",
+    "publisher": "Symphonie Studio"
   },
   {
-    "name": "Symphonie Studio",
-    "publisher": "Array Place (T-Vender)"
+    "name": "Array Place (T-Vender)",
+    "publisher": "T Vender"
   },
   {
-    "name": "T Vender",
-    "publisher": "VTransform (T-Vender)"
+    "name": "VTransform (T-Vender)",
+    "publisher": "T Vender"
   },
   {
-    "name": "T Vender",
-    "publisher": "Vibration Manager"
+    "name": "Vibration Manager",
+    "publisher": "T-Square Project"
   },
   {
-    "name": "T-Square Project",
-    "publisher": "PokerGamesGUI"
+    "name": "PokerGamesGUI",
+    "publisher": "TAKIEM"
   },
   {
-    "name": "TAKIEM",
-    "publisher": "FPS basic package"
+    "name": "FPS basic package",
+    "publisher": "TENET Game Studio"
   },
   {
-    "name": "TENET Game Studio",
-    "publisher": "TrumpCG Sofa VOL.2"
+    "name": "TrumpCG Sofa VOL.2",
+    "publisher": "TRUMP CG"
   },
   {
-    "name": "TRUMP CG",
-    "publisher": "TrumpCG Sofa VOL.1"
+    "name": "TrumpCG Sofa VOL.1",
+    "publisher": "TRUMP CG"
   },
   {
-    "name": "TRUMP CG",
-    "publisher": "Soft2D for Unity"
+    "name": "Soft2D for Unity",
+    "publisher": "Taichi Graphics"
   },
   {
-    "name": "Taichi Graphics",
-    "publisher": "Screen Transition (support URP)"
+    "name": "Screen Transition (support URP)",
+    "publisher": "TeamMingo"
   },
   {
-    "name": "TeamMingo",
-    "publisher": "Asset Importer for Aseprite Layer, Animation and Tileset"
+    "name": "Asset Importer for Aseprite Layer, Animation and Tileset",
+    "publisher": "TeamMingo"
   },
   {
-    "name": "TeamMingo",
-    "publisher": "UWS 2 : Universal Water System 2 For URP & Mobile Ready"
+    "name": "UWS 2 : Universal Water System 2 For URP & Mobile Ready",
+    "publisher": "TechFusion Studios"
   },
   {
-    "name": "TechFusion Studios",
-    "publisher": "Oodles Engine - Physics Gameplay"
+    "name": "Oodles Engine - Physics Gameplay",
+    "publisher": "TechFusion Studios"
   },
   {
-    "name": "TechFusion Studios",
-    "publisher": "Naval Battle Kit"
+    "name": "Naval Battle Kit",
+    "publisher": "TechFusion Studios"
   },
   {
-    "name": "TechFusion Studios",
-    "publisher": "Oodles Party(Physics-Based Battle For PC & Mobile)"
+    "name": "Oodles Party(Physics-Based Battle For PC & Mobile)",
+    "publisher": "TechFusion Studios"
   },
   {
-    "name": "TechFusion Studios",
-    "publisher": "Quick 3D-Anim to Sprite Generator"
+    "name": "Quick 3D-Anim to Sprite Generator",
+    "publisher": "TechFusion Studios"
   },
   {
-    "name": "TechFusion Studios",
-    "publisher": "NPC Voice Generator using Azure TTS(Text to speech)"
+    "name": "NPC Voice Generator using Azure TTS(Text to speech)",
+    "publisher": "TechFusion Studios"
   },
   {
-    "name": "TechFusion Studios",
-    "publisher": "Universal Water System(URP)"
+    "name": "Universal Water System(URP)",
+    "publisher": "TechFusion Studios"
   },
   {
-    "name": "TechFusion Studios",
-    "publisher": "Ground Truth Ambient Occlusion(URP)"
+    "name": "Ground Truth Ambient Occlusion(URP)",
+    "publisher": "TechFusion Studios"
   },
   {
-    "name": "TechFusion Studios",
-    "publisher": "In-Game Voice Chat-GME"
-  },
-  {
-    "name": "Tencent GME",
-    "publisher": "Tencent Games GVoice"
+    "name": "In-Game Voice Chat-GME",
+    "publisher": "Tencent GME"
   },
   {
     "name": "Tencent Games GVoice",
-    "publisher": "Asset Sorting Exporter"
+    "publisher": "Tencent Games GVoice"
   },
   {
-    "name": "Terrificia",
-    "publisher": "Assets Sorting Exporter 2"
+    "name": "Asset Sorting Exporter",
+    "publisher": "Terrificia"
   },
   {
-    "name": "Terrificia",
-    "publisher": "Monster&&Boss_CowboyTauren"
+    "name": "Assets Sorting Exporter 2",
+    "publisher": "Terrificia"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Hero&&Boss_Swordsman"
+    "name": "Monster&&Boss_CowboyTauren",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "FANTASY MONSTER PACK01"
+    "name": "Hero&&Boss_Swordsman",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&Boss_Cyclops"
+    "name": "FANTASY MONSTER PACK01",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&Boss_Succubus"
+    "name": "Monster&&Boss_Cyclops",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&LowPloygon Mobile_Dog"
+    "name": "Monster&&Boss_Succubus",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&LowPloygon Mobile_Lancer"
+    "name": "Monster&&LowPloygon Mobile_Dog",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&LowPloygon Mobile_Berserker"
+    "name": "Monster&&LowPloygon Mobile_Lancer",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Boss&&Monster_FlameBoss"
+    "name": "Monster&&LowPloygon Mobile_Berserker",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&LowPolygon Mobile_Succubus"
+    "name": "Boss&&Monster_FlameBoss",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "FANTASY BOSS PACK01"
+    "name": "Monster&&LowPolygon Mobile_Succubus",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&LowPolygon Cyclops"
+    "name": "FANTASY BOSS PACK01",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&Boss Mechanical Corps"
+    "name": "Monster&&LowPolygon Cyclops",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&Boss Skeleton"
+    "name": "Monster&&Boss Mechanical Corps",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&LowPloygon Mobile_Skeleton"
+    "name": "Monster&&Boss Skeleton",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&Boss_Dragon"
+    "name": "Monster&&LowPloygon Mobile_Skeleton",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&Boss_Orthos"
+    "name": "Monster&Boss_Dragon",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Monster&&LowPloygon Mobile_Tiger"
+    "name": "Monster&Boss_Orthos",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Mobile & Fantasy UI Simple"
+    "name": "Monster&&LowPloygon Mobile_Tiger",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Mobile & Fantasy UI Pro"
+    "name": "Mobile & Fantasy UI Simple",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Moblie/RPG GUI"
+    "name": "Mobile & Fantasy UI Pro",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Skill Icon RPGGAME"
+    "name": "Moblie/RPG GUI",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The 7 Heaven",
-    "publisher": "Low poly sci-fi gun pack"
+    "name": "Skill Icon RPGGAME",
+    "publisher": "The 7 Heaven"
   },
   {
-    "name": "The Little Guy",
-    "publisher": "TMPAnim - TextMesh Effect"
+    "name": "Low poly sci-fi gun pack",
+    "publisher": "The Little Guy"
   },
   {
-    "name": "Thomas Young",
-    "publisher": "Threeyes Action"
+    "name": "TMPAnim - TextMesh Effect",
+    "publisher": "Thomas Young"
   },
   {
-    "name": "Threeyes",
-    "publisher": "Threeyes EventPlayer"
+    "name": "Threeyes Action",
+    "publisher": "Threeyes"
   },
   {
-    "name": "Threeyes",
-    "publisher": "Asset Manager"
+    "name": "Threeyes EventPlayer",
+    "publisher": "Threeyes"
   },
   {
-    "name": "Threeyes",
-    "publisher": "Asset Bundle Tracker"
+    "name": "Asset Manager",
+    "publisher": "Threeyes"
   },
   {
-    "name": "ThunderBoxStudio",
-    "publisher": "ThunderFireUXTool"
+    "name": "Asset Bundle Tracker",
+    "publisher": "ThunderBoxStudio"
   },
   {
-    "name": "ThunderFireUX",
-    "publisher": "Classic 3D Pixel Alphabet and Number"
+    "name": "ThunderFireUXTool",
+    "publisher": "ThunderFireUX"
   },
   {
-    "name": "TingLuke",
-    "publisher": "Classic 3D Alphabet"
+    "name": "Classic 3D Pixel Alphabet and Number",
+    "publisher": "TingLuke"
   },
   {
-    "name": "TingLuke",
-    "publisher": "3D LowPoly Danxia Landscape"
+    "name": "Classic 3D Alphabet",
+    "publisher": "TingLuke"
   },
   {
-    "name": "TingLuke",
-    "publisher": "Easy 2D Reflection"
+    "name": "3D LowPoly Danxia Landscape",
+    "publisher": "TingLuke"
   },
   {
-    "name": "TingLuke",
-    "publisher": "PSD2UGUI"
+    "name": "Easy 2D Reflection",
+    "publisher": "TingLuke"
   },
   {
-    "name": "TingLuo",
-    "publisher": "Critters Animal Sound Fx"
+    "name": "PSD2UGUI",
+    "publisher": "TingLuo"
   },
   {
-    "name": "Tiny Tree",
-    "publisher": "Forest Animals Sound FX"
+    "name": "Critters Animal Sound Fx",
+    "publisher": "Tiny Tree"
   },
   {
-    "name": "Tiny Tree",
-    "publisher": "Mythical creatures Sound Fx"
+    "name": "Forest Animals Sound FX",
+    "publisher": "Tiny Tree"
   },
   {
-    "name": "Tiny Tree",
-    "publisher": "Ultimate creatures sound FX BUNDLE"
+    "name": "Mythical creatures Sound Fx",
+    "publisher": "Tiny Tree"
   },
   {
-    "name": "Tiny Tree",
-    "publisher": "Foundation Framework"
+    "name": "Ultimate creatures sound FX BUNDLE",
+    "publisher": "Tiny Tree"
   },
   {
-    "name": "Tiny Tree",
-    "publisher": "2D Scifi Pack"
+    "name": "Foundation Framework",
+    "publisher": "Tiny Tree"
   },
   {
-    "name": "Tiny Tree",
-    "publisher": "Cute Animal/Pet Avatar Maker System for Mobile and Desktop"
+    "name": "2D Scifi Pack",
+    "publisher": "Tiny Tree"
   },
   {
-    "name": "Tom Tong",
-    "publisher": "Sniper Rifle Model"
+    "name": "Cute Animal/Pet Avatar Maker System for Mobile and Desktop",
+    "publisher": "Tom Tong"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Bam-Bam Hammer"
+    "name": "Sniper Rifle Model",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Realistic Materials"
+    "name": "Bam-Bam Hammer",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Fertile Soil PBR Textures"
+    "name": "Realistic Materials",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "61 leather PBR materials V1"
+    "name": "Fertile Soil PBR Textures",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "64 leather PBR materials V2"
+    "name": "61 leather PBR materials V1",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Fabric Material Pack V1.0"
+    "name": "64 leather PBR materials V2",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Fabric Material Pack V2.0"
+    "name": "Fabric Material Pack V1.0",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Fabric Material Pack V5.0"
+    "name": "Fabric Material Pack V2.0",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Fabric Material Pack V4"
+    "name": "Fabric Material Pack V5.0",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Fabric Material Pack V3.0"
+    "name": "Fabric Material Pack V4",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "50 ground PBR materials V1"
+    "name": "Fabric Material Pack V3.0",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "50 ground PBR materials V3"
+    "name": "50 ground PBR materials V1",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "50 ground PBR materials V4"
+    "name": "50 ground PBR materials V3",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "57 ground PBR materials V6"
+    "name": "50 ground PBR materials V4",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "57 ground PBR materials V5"
+    "name": "57 ground PBR materials V6",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "52 PBR metal material packages"
+    "name": "57 ground PBR materials V5",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "50 ground PBR materials V2"
+    "name": "52 PBR metal material packages",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "2D Background Collection"
+    "name": "50 ground PBR materials V2",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Viking Pirate Style Weapon Icons"
+    "name": "2D Background Collection",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Skill icons V3"
+    "name": "Viking Pirate Style Weapon Icons",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Royal Trim – 146 Elegant Avatar Frames"
+    "name": "Skill icons V3",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "222 Enchanted Potions V1"
+    "name": "Royal Trim – 146 Elegant Avatar Frames",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "221 Enchanted Potions V2"
+    "name": "222 Enchanted Potions V1",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Arcane Tomes – 144 Fantasy Book Sprites"
+    "name": "221 Enchanted Potions V2",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "200 werewolf skill icons"
+    "name": "Arcane Tomes – 144 Fantasy Book Sprites",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "278 Skill Icons V2"
+    "name": "200 werewolf skill icons",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Pixel Landscape Library"
+    "name": "278 Skill Icons V2",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Abyssal Hollow – Dark Fantasy Cave Pack V1.0"
+    "name": "Pixel Landscape Library",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Abyssal Hollow – Dark Fantasy Cave Pack V2.0"
+    "name": "Abyssal Hollow – Dark Fantasy Cave Pack V1.0",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Abyssal Hollow – Dark Fantasy Cave Pack V3.0"
+    "name": "Abyssal Hollow – Dark Fantasy Cave Pack V2.0",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Cartoon 2D Farm Tools Icon Pack"
+    "name": "Abyssal Hollow – Dark Fantasy Cave Pack V3.0",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Cute Pixel Food and Shopping Icon Pack"
+    "name": "Cartoon 2D Farm Tools Icon Pack",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "2D Isometric Cartoon Buildings"
+    "name": "Cute Pixel Food and Shopping Icon Pack",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "150+ Skill icons"
+    "name": "2D Isometric Cartoon Buildings",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "Tom_Wood",
-    "publisher": "Aqua Smooth Normals - Improved Outline"
+    "name": "150+ Skill icons",
+    "publisher": "Tom_Wood"
   },
   {
-    "name": "ToreGames",
-    "publisher": "EasyImport"
+    "name": "Aqua Smooth Normals - Improved Outline",
+    "publisher": "ToreGames"
   },
   {
-    "name": "Truofan",
-    "publisher": "Labeler - Multiple Tags for GameObjects"
+    "name": "EasyImport",
+    "publisher": "Truofan"
   },
   {
-    "name": "TsFreddie",
-    "publisher": "VFX Graph - SoulBall"
+    "name": "Labeler - Multiple Tags for GameObjects",
+    "publisher": "TsFreddie"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Venom Pool"
+    "name": "VFX Graph - SoulBall",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Circling Axe"
+    "name": "VFX Graph - Venom Pool",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Demonic Tome"
+    "name": "VFX Graph - Circling Axe",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Golden Coin"
+    "name": "VFX Graph - Demonic Tome",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Level Up"
+    "name": "VFX Graph - Golden Coin",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Shield Wall"
+    "name": "VFX Graph - Level Up",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Stat Scroll"
+    "name": "VFX Graph - Shield Wall",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Fire Ball"
+    "name": "VFX Graph - Stat Scroll",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Fire Bomb"
+    "name": "VFX Graph - Fire Ball",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Fire Ball 02"
+    "name": "VFX Graph - Fire Bomb",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Meteor"
+    "name": "VFX Graph - Fire Ball 02",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Hit VFX"
+    "name": "VFX Graph - Meteor",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Lightning Ball"
+    "name": "VFX Graph - Hit VFX",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Blood Shot"
+    "name": "VFX Graph - Lightning Ball",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Chi Wave"
+    "name": "VFX Graph - Blood Shot",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Ice Storm"
+    "name": "VFX Graph - Chi Wave",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Axe VFX"
+    "name": "VFX Graph - Ice Storm",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Blood Pool"
+    "name": "VFX Graph - Axe VFX",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Blood Sycthe"
+    "name": "VFX Graph - Blood Pool",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Bouncing Bomb"
+    "name": "VFX Graph - Blood Sycthe",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Bow Shot"
+    "name": "VFX Graph - Bouncing Bomb",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Captain Shield"
+    "name": "VFX Graph - Bow Shot",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Circle Lightning"
+    "name": "VFX Graph - Captain Shield",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Crossbow"
+    "name": "VFX Graph - Circle Lightning",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Dagger"
+    "name": "VFX Graph - Crossbow",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Electric Field"
+    "name": "VFX Graph - Dagger",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Frost Lance"
+    "name": "VFX Graph - Electric Field",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Frost Nova"
+    "name": "VFX Graph - Frost Lance",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Hammer Strike"
+    "name": "VFX Graph - Frost Nova",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Javelin"
+    "name": "VFX Graph - Hammer Strike",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Venom Elixir"
+    "name": "VFX Graph - Javelin",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Venom Spray"
+    "name": "VFX Graph - Venom Elixir",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Weakening Aura"
+    "name": "VFX Graph - Venom Spray",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Last Breath"
+    "name": "VFX Graph - Weakening Aura",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Lightning Arrow"
+    "name": "VFX Graph - Last Breath",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Muzzle Loader"
+    "name": "VFX Graph - Lightning Arrow",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Sacred Light"
+    "name": "VFX Graph - Muzzle Loader",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Sacred Staff"
+    "name": "VFX Graph - Sacred Light",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Sacred Stand"
+    "name": "VFX Graph - Sacred Staff",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Sages Codex"
+    "name": "VFX Graph - Sacred Stand",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Shuriken"
+    "name": "VFX Graph - Sages Codex",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Thunder Mallet"
+    "name": "VFX Graph - Shuriken",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Thunder Strike"
+    "name": "VFX Graph - Thunder Mallet",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Skull Fire"
+    "name": "VFX Graph - Thunder Strike",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Warriors Flame"
+    "name": "VFX Graph - Skull Fire",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Chi Spiral"
+    "name": "VFX Graph - Warriors Flame",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Buff VFX"
+    "name": "VFX Graph - Chi Spiral",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Cast VFX"
+    "name": "VFX Graph - Buff VFX",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Kikoken"
+    "name": "VFX Graph - Cast VFX",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "VFX Graph - Battle Field Chest"
+    "name": "VFX Graph - Kikoken",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "TwoUncles",
-    "publisher": "HierarchyCube"
+    "name": "VFX Graph - Battle Field Chest",
+    "publisher": "TwoUncles"
   },
   {
-    "name": "T·L",
-    "publisher": "ChameleonX"
+    "name": "HierarchyCube",
+    "publisher": "T·L"
   },
   {
-    "name": "T·L",
-    "publisher": "BatchRename"
+    "name": "ChameleonX",
+    "publisher": "T·L"
   },
   {
-    "name": "T·L",
-    "publisher": "PicSuite"
+    "name": "BatchRename",
+    "publisher": "T·L"
   },
   {
-    "name": "T·L",
-    "publisher": "UIListAnimator"
+    "name": "PicSuite",
+    "publisher": "T·L"
   },
   {
-    "name": "T·L",
-    "publisher": "TopDownShootGameKit"
+    "name": "UIListAnimator",
+    "publisher": "T·L"
   },
   {
-    "name": "U3DC",
-    "publisher": "EasyBanner Pro"
+    "name": "TopDownShootGameKit",
+    "publisher": "U3DC"
   },
   {
-    "name": "U3DC",
-    "publisher": "IESLighting"
+    "name": "EasyBanner Pro",
+    "publisher": "U3DC"
   },
   {
-    "name": "Unitek, Simon Liu",
-    "publisher": "2D Comic Forest Background-A"
+    "name": "IESLighting",
+    "publisher": "Unitek, Simon Liu"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Forest Background-B"
+    "name": "2D Comic Forest Background-A",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Forest Night Background-C"
+    "name": "2D Comic Forest Background-B",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Forest Background-D"
+    "name": "2D Comic Forest Night Background-C",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Ice field & Forest Background-F"
+    "name": "2D Comic Forest Background-D",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Ice Field Background-E"
+    "name": "2D Comic Ice field & Forest Background-F",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Desert Background-G"
+    "name": "2D Comic Ice Field Background-E",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Desert Background-H"
+    "name": "2D Comic Desert Background-G",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Volcanic Areas Background-I"
+    "name": "2D Comic Desert Background-H",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Village Background-P"
+    "name": "2D Comic Volcanic Areas Background-I",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Swamp Background-K"
+    "name": "2D Comic Village Background-P",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Mine Background-M"
+    "name": "2D Comic Swamp Background-K",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Mine Background-N"
+    "name": "2D Comic Mine Background-M",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Village Background-O"
+    "name": "2D Comic Mine Background-N",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Hot Spring Background-Q"
+    "name": "2D Comic Village Background-O",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Beach Background-R"
+    "name": "2D Comic Hot Spring Background-Q",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Volcanic Areas Background-J"
+    "name": "2D Comic Beach Background-R",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Swamp Background-L"
+    "name": "2D Comic Volcanic Areas Background-J",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Farmland Background-S"
+    "name": "2D Comic Swamp Background-L",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Secluded Background-W"
+    "name": "2D Comic Farmland Background-S",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Dungeon Background-V"
+    "name": "2D Comic Secluded Background-W",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Island Background-X"
+    "name": "2D Comic Dungeon Background-V",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Machinery City Background-Y"
+    "name": "2D Comic Island Background-X",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Sci-Fi City Background-Z"
+    "name": "2D Comic Machinery City Background-Y",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Castle Background-U"
+    "name": "2D Comic Sci-Fi City Background-Z",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Comic Cemetery Background-T"
+    "name": "2D Comic Castle Background-U",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "2D Space Planet"
+    "name": "2D Comic Cemetery Background-T",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "Unnulltor Studio",
-    "publisher": "Simple Hair Shader"
+    "name": "2D Space Planet",
+    "publisher": "Unnulltor Studio"
   },
   {
-    "name": "VAT",
-    "publisher": "RPG Games VFX Bundle Vol.1"
+    "name": "Simple Hair Shader",
+    "publisher": "VAT"
   },
   {
-    "name": "VAT",
-    "publisher": "Magic Effect And Sword Effect"
+    "name": "RPG Games VFX Bundle Vol.1",
+    "publisher": "VAT"
   },
   {
-    "name": "VAT",
-    "publisher": "skin shader"
+    "name": "Magic Effect And Sword Effect",
+    "publisher": "VAT"
   },
   {
-    "name": "VAT",
-    "publisher": "Super Editor"
+    "name": "skin shader",
+    "publisher": "VAT"
   },
   {
-    "name": "VIK",
-    "publisher": "Advanced Shooter Kit"
+    "name": "Super Editor",
+    "publisher": "VIK"
   },
   {
-    "name": "VKCC",
-    "publisher": "Smart FP Controller : First Person"
+    "name": "Advanced Shooter Kit",
+    "publisher": "VKCC"
   },
   {
-    "name": "VKCC",
-    "publisher": "Surface Detector"
+    "name": "Smart FP Controller : First Person",
+    "publisher": "VKCC"
   },
   {
-    "name": "VKCC",
-    "publisher": "Touch Controls Kit"
+    "name": "Surface Detector",
+    "publisher": "VKCC"
   },
   {
-    "name": "VKCC",
-    "publisher": "Touch Controls Kit - Lite"
+    "name": "Touch Controls Kit",
+    "publisher": "VKCC"
   },
   {
-    "name": "VKCC",
-    "publisher": "Save Game Kit"
+    "name": "Touch Controls Kit - Lite",
+    "publisher": "VKCC"
   },
   {
-    "name": "VKCC",
-    "publisher": "Tao Mu Sword[Free]"
+    "name": "Save Game Kit",
+    "publisher": "VKCC"
   },
   {
-    "name": "VVayToyek",
-    "publisher": "Yang Hun Sword[Free]"
+    "name": "Tao Mu Sword[Free]",
+    "publisher": "VVayToyek"
   },
   {
-    "name": "VVayToyek",
-    "publisher": "Yin Po Sword[Free]"
+    "name": "Yang Hun Sword[Free]",
+    "publisher": "VVayToyek"
   },
   {
-    "name": "VVayToyek",
-    "publisher": "Kui Yue Sword [Free]"
+    "name": "Yin Po Sword[Free]",
+    "publisher": "VVayToyek"
   },
   {
-    "name": "VVayToyek",
-    "publisher": "Camera Previewer"
+    "name": "Kui Yue Sword [Free]",
+    "publisher": "VVayToyek"
   },
   {
-    "name": "Vact0r",
-    "publisher": "Chopper Model"
+    "name": "Camera Previewer",
+    "publisher": "Vact0r"
   },
   {
-    "name": "Venterwu",
-    "publisher": "HierarchyZCulling"
+    "name": "Chopper Model",
+    "publisher": "Venterwu"
   },
   {
-    "name": "Venterwu",
-    "publisher": "VTStreamingCollider Pro"
+    "name": "HierarchyZCulling",
+    "publisher": "Venterwu"
   },
   {
-    "name": "Venterwu",
-    "publisher": "VTCodeTemplate"
+    "name": "VTStreamingCollider Pro",
+    "publisher": "Venterwu"
   },
   {
-    "name": "Venterwu",
-    "publisher": "VTCodeTemplate Pro"
+    "name": "VTCodeTemplate",
+    "publisher": "Venterwu"
   },
   {
-    "name": "Venterwu",
-    "publisher": "VT Surface Voxelize"
+    "name": "VTCodeTemplate Pro",
+    "publisher": "Venterwu"
   },
   {
-    "name": "Venterwu",
-    "publisher": "VTStreamingCollider"
+    "name": "VT Surface Voxelize",
+    "publisher": "Venterwu"
   },
   {
-    "name": "Venterwu",
-    "publisher": "VT Space Nav 2D"
+    "name": "VTStreamingCollider",
+    "publisher": "Venterwu"
   },
   {
-    "name": "Venterwu",
-    "publisher": "AtlasTool"
+    "name": "VT Space Nav 2D",
+    "publisher": "Venterwu"
   },
   {
-    "name": "Venus",
-    "publisher": "Galaxy Cafe - Sci Fi Cartoony Environment"
+    "name": "AtlasTool",
+    "publisher": "Venus"
   },
   {
-    "name": "Vertex Motion Creation",
-    "publisher": "Modular Stylized Cartoon Gun Pack"
+    "name": "Galaxy Cafe - Sci Fi Cartoony Environment",
+    "publisher": "Vertex Motion Creation"
   },
   {
-    "name": "Vertex Motion Creation",
-    "publisher": "Lowpoly Knight RIO"
+    "name": "Modular Stylized Cartoon Gun Pack",
+    "publisher": "Vertex Motion Creation"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly PlagueDocter RIO"
+    "name": "Lowpoly Knight RIO",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly MushroomMan Character"
+    "name": "Lowpoly PlagueDocter RIO",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly Magician RIO"
+    "name": "Lowpoly MushroomMan Character",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly BountyHunter RIO"
+    "name": "Lowpoly Magician RIO",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly Cowboy RIO V1.1"
+    "name": "Lowpoly BountyHunter RIO",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "LowPoly Survival Character Rio"
+    "name": "Lowpoly Cowboy RIO V1.1",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly BountyHunter RIO 2"
+    "name": "LowPoly Survival Character Rio",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly Chest Monster"
+    "name": "Lowpoly BountyHunter RIO 2",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Stylized Nature Art Pack V1.1"
+    "name": "Lowpoly Chest Monster",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly Nature Bundle"
+    "name": "Stylized Nature Art Pack V1.1",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly Art Shader Pack Vol.01"
+    "name": "Lowpoly Nature Bundle",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Level Design Modular Starter Pack"
+    "name": "Lowpoly Art Shader Pack Vol.01",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly Medieval Prop Pack"
+    "name": "Level Design Modular Starter Pack",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly Medieval Weapon Pack"
+    "name": "Lowpoly Medieval Prop Pack",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "Lowpoly Cactus Pack"
+    "name": "Lowpoly Medieval Weapon Pack",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "VertexModeler Team",
-    "publisher": "VTSceneLoader"
+    "name": "Lowpoly Cactus Pack",
+    "publisher": "VertexModeler Team"
   },
   {
-    "name": "Victor He",
-    "publisher": "[The Jade Sword] Oriental Monsters - EP1.WILD"
+    "name": "VTSceneLoader",
+    "publisher": "Victor He"
   },
   {
-    "name": "Volthes",
-    "publisher": "[The Jade Sword] Oriental Monsters - EP2.OCEAN"
+    "name": "[The Jade Sword] Oriental Monsters - EP1.WILD",
+    "publisher": "Volthes"
   },
   {
-    "name": "Volthes",
-    "publisher": "[The Jade Sword] Oriental Monsters - EP3.EVIL"
+    "name": "[The Jade Sword] Oriental Monsters - EP2.OCEAN",
+    "publisher": "Volthes"
   },
   {
-    "name": "Volthes",
-    "publisher": "Casual / Cartoon Game UI with SFX"
+    "name": "[The Jade Sword] Oriental Monsters - EP3.EVIL",
+    "publisher": "Volthes"
   },
   {
-    "name": "Volthes",
-    "publisher": "Stylized Sword & Magic Skill UI Pack"
+    "name": "Casual / Cartoon Game UI with SFX",
+    "publisher": "Volthes"
   },
   {
-    "name": "Volthes",
-    "publisher": "GUI for Next-Gen Sci-fi Shooter / Space Fighter"
+    "name": "Stylized Sword & Magic Skill UI Pack",
+    "publisher": "Volthes"
   },
   {
-    "name": "Volthes",
-    "publisher": "Stylized Sword & Magic Skill Icon Pack"
+    "name": "GUI for Next-Gen Sci-fi Shooter / Space Fighter",
+    "publisher": "Volthes"
   },
   {
-    "name": "Volthes",
-    "publisher": "Scene Fade - Variety Effect Fade and Example"
+    "name": "Stylized Sword & Magic Skill Icon Pack",
+    "publisher": "Volthes"
   },
   {
-    "name": "WALTERLIST",
-    "publisher": "Space Fighter 2015(Char_Enemy_Shady)"
+    "name": "Scene Fade - Variety Effect Fade and Example",
+    "publisher": "WALTERLIST"
   },
   {
-    "name": "WangYan",
-    "publisher": "VariableTracer"
+    "name": "Space Fighter 2015(Char_Enemy_Shady)",
+    "publisher": "WangYan"
   },
   {
-    "name": "Wangfy",
-    "publisher": "Render Capture"
+    "name": "VariableTracer",
+    "publisher": "Wangfy"
   },
   {
-    "name": "WarrenGL",
-    "publisher": "CuteFruitsMonsterAnimatedPack"
+    "name": "Render Capture",
+    "publisher": "WarrenGL"
   },
   {
-    "name": "Weill",
-    "publisher": "Chibi Style Stylized Swords 3D Models"
+    "name": "CuteFruitsMonsterAnimatedPack",
+    "publisher": "Weill"
   },
   {
-    "name": "Weill",
-    "publisher": "GUI 3D Matrix"
+    "name": "Chibi Style Stylized Swords 3D Models",
+    "publisher": "Weill"
   },
   {
-    "name": "WenJie Liu",
-    "publisher": "32x32 Pixel Weapon and Craft Material Pack"
+    "name": "GUI 3D Matrix",
+    "publisher": "WenJie Liu"
   },
   {
-    "name": "White Canvas",
-    "publisher": "32x32 Modular Weapon Pack"
+    "name": "32x32 Pixel Weapon and Craft Material Pack",
+    "publisher": "White Canvas"
   },
   {
-    "name": "White Canvas",
-    "publisher": "Master Stylized FX"
+    "name": "32x32 Modular Weapon Pack",
+    "publisher": "White Canvas"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "Japanese girl Iris"
+    "name": "Master Stylized FX",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "AnimatorPlus"
+    "name": "Japanese girl Iris",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "CombatEditor"
+    "name": "AnimatorPlus",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "Master Explosion FX"
+    "name": "CombatEditor",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "MasterMagicFX"
+    "name": "Master Explosion FX",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "MasterMagicFX 2"
+    "name": "MasterMagicFX",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "Master MagicFX 3"
+    "name": "MasterMagicFX 2",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "Master MagicFX Bundle"
+    "name": "Master MagicFX 3",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "Master Sci-fi FX"
+    "name": "Master MagicFX Bundle",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "Master Realistic FX"
+    "name": "Master Sci-fi FX",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "Master Stylized Projectile"
+    "name": "Master Realistic FX",
+    "publisher": "WhiteBox Studio"
   },
   {
-    "name": "WhiteBox Studio",
-    "publisher": "WOC City Road Lite Pack"
+    "name": "Master Stylized Projectile",
+    "publisher": "WhiteBox Studio"
+  },
+  {
+    "name": "WOC City Road Lite Pack",
+    "publisher": "Whitewater Workshop Creative T"
   },
   {
     "name": "WOC City Building SubwayStation Lite Pack",
-    "publisher": "WOC City Building School Lite Pack"
+    "publisher": "Whitewater Workshop Creative T"
+  },
+  {
+    "name": "WOC City Building School Lite Pack",
+    "publisher": "Whitewater Workshop Creative T"
   },
   {
     "name": "WOC City Building OfficeBuilding Lite Pack",
-    "publisher": "WOC City Building Hospital Lite Pack"
+    "publisher": "Whitewater Workshop Creative T"
+  },
+  {
+    "name": "WOC City Building Hospital Lite Pack",
+    "publisher": "Whitewater Workshop Creative T"
   },
   {
     "name": "WOC City Building GasStation Lite Pack",
-    "publisher": "WOC City Lite Pack"
+    "publisher": "Whitewater Workshop Creative T"
+  },
+  {
+    "name": "WOC City Lite Pack",
+    "publisher": "Whitewater Workshop Creative T"
   },
   {
     "name": "WOC_City_Seaport_Lite_Pack",
-    "publisher": "WOC City Building Park Lite Free Pack"
-  },
-  {
-    "name": "Whitewater Workshop Creative T",
     "publisher": "Whitewater Workshop Creative T"
   },
   {
-    "name": "Whitewater Workshop Creative T",
+    "name": "WOC City Building Park Lite Free Pack",
     "publisher": "Whitewater Workshop Creative T"
   },
   {
-    "name": "Whitewater Workshop Creative T",
+    "name": "WOC City Building Carpark Lite Pack",
     "publisher": "Whitewater Workshop Creative T"
-  },
-  {
-    "name": "Whitewater Workshop Creative T",
-    "publisher": "Whitewater Workshop Creative T"
-  },
-  {
-    "name": "Whitewater Workshop Creative T",
-    "publisher": "WOC City Building Carpark Lite Pack"
   },
   {
     "name": "Dungeon Lite Pack",
-    "publisher": "Weapons Cross Sword Pack"
+    "publisher": "Whitewater Workshop Creative T"
+  },
+  {
+    "name": "Weapons Cross Sword Pack",
+    "publisher": "Whitewater Workshop Creative T"
   },
   {
     "name": "Weapons-Hammer Pack",
-    "publisher": "Weapons-Shield Pack"
+    "publisher": "Whitewater Workshop Creative T"
+  },
+  {
+    "name": "Weapons-Shield Pack",
+    "publisher": "Whitewater Workshop Creative T"
   },
   {
     "name": "Weapons-Sword,Shield,Hammer Pack",
-    "publisher": "Woc_City_Vehicle_Crane_Pack"
+    "publisher": "Whitewater Workshop Creative T"
+  },
+  {
+    "name": "Woc_City_Vehicle_Crane_Pack",
+    "publisher": "Whitewater Workshop Creative T"
   },
   {
     "name": "WOC_Armored_Infantry_Vehicle_Pack",
-    "publisher": "Mesh Explosion Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Control 3D Game Objects"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Outline Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Elecctric Shock Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Pixelated Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Smear Effect Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Lightning Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Ghost Trail Effect"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Burning Effect Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Glitch Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Chromatic Aberration Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Background Blur Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Blur Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Melting Tool"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Sprite & UI Shader Package"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Toon & Ouline Effect"
-  },
-  {
-    "name": "Wu Haipeng",
-    "publisher": "Particle System Preview"
-  },
-  {
-    "name": "WuHuan",
-    "publisher": "LayoutExtensions"
-  },
-  {
-    "name": "XBB publisher",
-    "publisher": "Fantasy Style Environment Art Pack"
-  },
-  {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Forest Art Pack"
-  },
-  {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Cave Art Pack"
-  },
-  {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Mountain Art Pack"
-  },
-  {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Environment Plus Pack"
-  },
-  {
-    "name": "XCYeStudio",
     "publisher": "Whitewater Workshop Creative T"
   },
   {
-    "name": "Whitewater Workshop Creative T",
-    "publisher": "Whitewater Workshop Creative T"
+    "name": "Mesh Explosion Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "Whitewater Workshop Creative T",
-    "publisher": "Whitewater Workshop Creative T"
+    "name": "Control 3D Game Objects",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "Whitewater Workshop Creative T",
-    "publisher": "Whitewater Workshop Creative T"
+    "name": "Outline Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "Whitewater Workshop Creative T",
-    "publisher": "Fantasy Style Island Art Pack"
+    "name": "Elecctric Shock Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Environment Art Pack Ⅱ"
+    "name": "Pixelated Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Sky Art Pack"
+    "name": "Smear Effect Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Grassland Art Pack"
+    "name": "Lightning Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style River Art Pack"
+    "name": "Ghost Trail Effect",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Ocean Art Pack"
+    "name": "Burning Effect Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Volcano Art Pack"
+    "name": "Glitch Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Waterfall Art Pack"
+    "name": "Chromatic Aberration Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Desert Art Pack"
+    "name": "Background Blur Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XCYeStudio",
-    "publisher": "Fantasy Style Snowfield Art Pack"
+    "name": "Blur Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XCYeStudio",
-    "publisher": "XSGridEditor"
+    "name": "Melting Tool",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XIAOSHI",
-    "publisher": "Artspub prop vol1 Bicycle"
+    "name": "Sprite & UI Shader Package",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "XRLOFT Interior Vol 01-The Loft Room"
+    "name": "Toon & Ouline Effect",
+    "publisher": "Wu Haipeng"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "XRLOFT Interior Vol3-Classroom"
+    "name": "Particle System Preview",
+    "publisher": "WuHuan"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "XRLoft Props-Generator"
+    "name": "LayoutExtensions",
+    "publisher": "XBB publisher"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "XRLoft Props-Shovel"
+    "name": "Fantasy Style Environment Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "XRLoft Props-Animated Flag"
+    "name": "Fantasy Style Forest Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "XRLoft Props-Fire Hose Nozzle"
+    "name": "Fantasy Style Cave Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "XRLoft Vehices-Fire ATV"
+    "name": "Fantasy Style Mountain Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "XRLoft Vehices-FireEngines"
+    "name": "Fantasy Style Environment Plus Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "XRLoft Vehices-Fire Helicopter"
+    "name": "Fantasy Style Island Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "XRLoft Interior Vol2 - Car Workshop"
+    "name": "Fantasy Style Environment Art Pack Ⅱ",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XRLoft Studios",
-    "publisher": "RocketDriver Pro - Efficient Game Framework"
+    "name": "Fantasy Style Sky Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XUZHUOXI",
-    "publisher": "Kitchen Props"
+    "name": "Fantasy Style Grassland Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XiangJin",
-    "publisher": "Unico Modular Actions"
+    "name": "Fantasy Style River Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XiangJin",
-    "publisher": "Unico Mesh Trail"
+    "name": "Fantasy Style Ocean Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XiangJin",
-    "publisher": "uWave Generator"
+    "name": "Fantasy Style Volcano Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XiangJin",
-    "publisher": "Measure Lines - VR_Ready"
+    "name": "Fantasy Style Waterfall Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XiangJin",
-    "publisher": "DrawingPhysics"
+    "name": "Fantasy Style Desert Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XiangJin",
-    "publisher": "NavMesh Generator"
+    "name": "Fantasy Style Snowfield Art Pack",
+    "publisher": "XCYeStudio"
   },
   {
-    "name": "XiangJin",
-    "publisher": "Unico Water Shader - A Lightweight Water Shader"
+    "name": "XSGridEditor",
+    "publisher": "XIAOSHI"
   },
   {
-    "name": "XiangJin",
-    "publisher": "EagleExoPlayer"
+    "name": "Artspub prop vol1 Bicycle",
+    "publisher": "XRLoft Studios"
   },
   {
-    "name": "XiangKuiZheng",
-    "publisher": "Simple Bedroom Scene Pack"
+    "name": "XRLOFT Interior Vol 01-The Loft Room",
+    "publisher": "XRLoft Studios"
   },
   {
-    "name": "Xiao Studio",
-    "publisher": "Anime style modular house"
+    "name": "XRLOFT Interior Vol3-Classroom",
+    "publisher": "XRLoft Studios"
   },
   {
-    "name": "Xiao Studio",
-    "publisher": "Japanese School Classroom Pack"
+    "name": "XRLoft Props-Generator",
+    "publisher": "XRLoft Studios"
   },
   {
-    "name": "Xiao Studio",
-    "publisher": "PBR Living Room Furniture Pack - Vol1"
+    "name": "XRLoft Props-Shovel",
+    "publisher": "XRLoft Studios"
   },
   {
-    "name": "Xiao Studio",
-    "publisher": "XinSoundSoundEnginev0.9.5-beta"
+    "name": "XRLoft Props-Animated Flag",
+    "publisher": "XRLoft Studios"
+  },
+  {
+    "name": "XRLoft Props-Fire Hose Nozzle",
+    "publisher": "XRLoft Studios"
+  },
+  {
+    "name": "XRLoft Vehices-Fire ATV",
+    "publisher": "XRLoft Studios"
+  },
+  {
+    "name": "XRLoft Vehices-FireEngines",
+    "publisher": "XRLoft Studios"
+  },
+  {
+    "name": "XRLoft Vehices-Fire Helicopter",
+    "publisher": "XRLoft Studios"
+  },
+  {
+    "name": "XRLoft Interior Vol2 - Car Workshop",
+    "publisher": "XRLoft Studios"
+  },
+  {
+    "name": "RocketDriver Pro - Efficient Game Framework",
+    "publisher": "XUZHUOXI"
+  },
+  {
+    "name": "Kitchen Props",
+    "publisher": "XiangJin"
+  },
+  {
+    "name": "Unico Modular Actions",
+    "publisher": "XiangJin"
+  },
+  {
+    "name": "Unico Mesh Trail",
+    "publisher": "XiangJin"
+  },
+  {
+    "name": "uWave Generator",
+    "publisher": "XiangJin"
+  },
+  {
+    "name": "Measure Lines - VR_Ready",
+    "publisher": "XiangJin"
+  },
+  {
+    "name": "DrawingPhysics",
+    "publisher": "XiangJin"
+  },
+  {
+    "name": "NavMesh Generator",
+    "publisher": "XiangJin"
+  },
+  {
+    "name": "Unico Water Shader - A Lightweight Water Shader",
+    "publisher": "XiangJin"
+  },
+  {
+    "name": "EagleExoPlayer",
+    "publisher": "XiangKuiZheng"
+  },
+  {
+    "name": "Simple Bedroom Scene Pack",
+    "publisher": "Xiao Studio"
+  },
+  {
+    "name": "Anime style modular house",
+    "publisher": "Xiao Studio"
+  },
+  {
+    "name": "Japanese School Classroom Pack",
+    "publisher": "Xiao Studio"
+  },
+  {
+    "name": "PBR Living Room Furniture Pack - Vol1",
+    "publisher": "Xiao Studio"
+  },
+  {
+    "name": "XinSoundSoundEnginev0.9.5-beta",
+    "publisher": "XinSoundSoundEnginev0.9.5-be"
   },
   {
     "name": "Stylized_Ice",
@@ -8780,7 +8796,7 @@ const REMOVED_ASSETS = [
     "publisher": "Yuan Wei"
   },
   {
-    "name": "XinSoundSoundEnginev0.9.5-be",
+    "name": "RTS Senior Kit - 1000+ Unit Control & AI Pathfinding to Realize Your Tech",
     "publisher": "Yuan Wei"
   },
   {
@@ -8904,168 +8920,168 @@ const REMOVED_ASSETS = [
     "publisher": "Zetan Studio"
   },
   {
-    "name": "RTS Senior Kit - 1000+ Unit Control & AI Pathfinding to Realize Your Tech",
-    "publisher": "UGUIImageShaderPack"
+    "name": "UGUIImageShaderPack",
+    "publisher": "ZhangGameMaker"
   },
   {
-    "name": "ZhangGameMaker",
-    "publisher": "Z！M.O.B.A Environment Art Pack"
+    "name": "Z！M.O.B.A Environment Art Pack",
+    "publisher": "Zomoss！"
   },
   {
-    "name": "Zomoss！",
-    "publisher": "Z ! Low Poly Medieval Environment Pack"
+    "name": "Z ! Low Poly Medieval Environment Pack",
+    "publisher": "Zomoss！"
   },
   {
-    "name": "Zomoss！",
-    "publisher": "Z ! Low Poly Nature Pack"
+    "name": "Z ! Low Poly Nature Pack",
+    "publisher": "Zomoss！"
   },
   {
-    "name": "Zomoss！",
-    "publisher": "Z！MOBA Environment Art Pack"
+    "name": "Z！MOBA Environment Art Pack",
+    "publisher": "Zomoss！"
   },
   {
-    "name": "Zomoss！",
-    "publisher": "Z ! Low Poly Cave Pack"
+    "name": "Z ! Low Poly Cave Pack",
+    "publisher": "Zomoss！"
   },
   {
-    "name": "Zomoss！",
-    "publisher": "Decal for URP"
+    "name": "Decal for URP",
+    "publisher": "Zz89"
   },
   {
-    "name": "Zz89",
-    "publisher": "FPS gun sound pack 1"
+    "name": "FPS gun sound pack 1",
+    "publisher": "aimsoundstudio"
   },
   {
-    "name": "aimsoundstudio",
-    "publisher": "Snow-covered Mountain Forest"
+    "name": "Snow-covered Mountain Forest",
+    "publisher": "alexander_yc"
   },
   {
-    "name": "alexander_yc",
-    "publisher": "Japanese Samurai x3"
+    "name": "Japanese Samurai x3",
+    "publisher": "all-animation"
   },
   {
-    "name": "all-animation",
-    "publisher": "Mecanim HeroMale 90 Animations"
+    "name": "Mecanim HeroMale 90 Animations",
+    "publisher": "all-animation"
   },
   {
-    "name": "all-animation",
-    "publisher": "Iron Man"
+    "name": "Iron Man",
+    "publisher": "alt studio"
   },
   {
-    "name": "alt studio",
-    "publisher": "Japan Ninja"
+    "name": "Japan Ninja",
+    "publisher": "alt studio"
   },
   {
-    "name": "alt studio",
-    "publisher": "3D Items - Toy,Jungle,Hat,Item Pack"
+    "name": "3D Items - Toy,Jungle,Hat,Item Pack",
+    "publisher": "alt studio"
   },
   {
-    "name": "alt studio",
-    "publisher": "Anlian RV Trailer"
+    "name": "Anlian RV Trailer",
+    "publisher": "anlianDesign"
   },
   {
-    "name": "anlianDesign",
-    "publisher": "Vertical Disappear Shader Pack"
+    "name": "Vertical Disappear Shader Pack",
+    "publisher": "arivd"
   },
   {
-    "name": "arivd",
-    "publisher": "IOULang-multi-language tools"
+    "name": "IOULang-multi-language tools",
+    "publisher": "atwal"
   },
   {
-    "name": "atwal",
-    "publisher": "Stylized cartoon animal characters_2"
+    "name": "Stylized cartoon animal characters_2",
+    "publisher": "baibai"
   },
   {
-    "name": "baibai",
-    "publisher": "Stylized cartoon animal characters"
+    "name": "Stylized cartoon animal characters",
+    "publisher": "baibai"
   },
   {
-    "name": "baibai",
-    "publisher": "Stylized cartoon animal characters_03"
+    "name": "Stylized cartoon animal characters_03",
+    "publisher": "baibai"
   },
   {
-    "name": "baibai",
-    "publisher": "Halloween cemetery_0"
+    "name": "Halloween cemetery_0",
+    "publisher": "baibai"
   },
   {
-    "name": "baibai",
-    "publisher": "Fighting Action Boxer"
+    "name": "Fighting Action Boxer",
+    "publisher": "baqian_game"
   },
   {
-    "name": "baqian_game",
-    "publisher": "pixel poker cards"
+    "name": "pixel poker cards",
+    "publisher": "bbgame"
   },
   {
-    "name": "bbgame",
-    "publisher": "Desert"
+    "name": "Desert",
+    "publisher": "bbo"
   },
   {
-    "name": "bbo",
-    "publisher": "Tower"
+    "name": "Tower",
+    "publisher": "bbo"
   },
   {
-    "name": "bbo",
-    "publisher": "Garage Vol. 2"
+    "name": "Garage Vol. 2",
+    "publisher": "bbo"
   },
   {
-    "name": "bbo",
-    "publisher": "Modern Furniture (Mediterranean Style)"
+    "name": "Modern Furniture (Mediterranean Style)",
+    "publisher": "bbo"
   },
   {
-    "name": "bbo",
-    "publisher": "Assault Rifle"
+    "name": "Assault Rifle",
+    "publisher": "bbo"
   },
   {
-    "name": "bbo",
-    "publisher": "Modern Furniture-II"
+    "name": "Modern Furniture-II",
+    "publisher": "bbo"
   },
   {
-    "name": "bbo",
-    "publisher": "Aerosol"
+    "name": "Aerosol",
+    "publisher": "beantowel"
   },
   {
-    "name": "beantowel",
-    "publisher": "FighterHUD"
+    "name": "FighterHUD",
+    "publisher": "beantowel"
   },
   {
-    "name": "beantowel",
-    "publisher": "Realistic Fruit Pack(URP)"
+    "name": "Realistic Fruit Pack(URP)",
+    "publisher": "bei"
   },
   {
-    "name": "bei",
-    "publisher": "HnMVC"
+    "name": "HnMVC",
+    "publisher": "bellusvita"
   },
   {
-    "name": "bellusvita",
-    "publisher": "PocketPython"
+    "name": "PocketPython",
+    "publisher": "blueloveTH"
   },
   {
-    "name": "blueloveTH",
-    "publisher": "Police Car Pack"
+    "name": "Police Car Pack",
+    "publisher": "businessyuen"
   },
   {
-    "name": "businessyuen",
-    "publisher": "Particle System Batch"
+    "name": "Particle System Batch",
+    "publisher": "caiznen"
   },
   {
-    "name": "caiznen",
-    "publisher": "Collection of ancient Chinese architecture"
+    "name": "Collection of ancient Chinese architecture",
+    "publisher": "ccc88517"
   },
   {
-    "name": "ccc88517",
-    "publisher": "Visual field visualization HDRP"
+    "name": "Visual field visualization HDRP",
+    "publisher": "ccc88517"
   },
   {
-    "name": "ccc88517",
-    "publisher": "Visual field visualization URP"
+    "name": "Visual field visualization URP",
+    "publisher": "ccc88517"
   },
   {
-    "name": "ccc88517",
-    "publisher": "ADB Toolkit"
+    "name": "ADB Toolkit",
+    "publisher": "chen_lun_fu"
   },
   {
-    "name": "chen_lun_fu",
-    "publisher": "Fast Save - Scalable Save Data & Network Save & Fast Serializer System chen_lun_fu"
+    "name": "Fast Save - Scalable Save Data & Network Save & Fast Serializer System",
+    "publisher": "chen_lun_fu"
   },
   {
     "name": "IndicatorSystem/VRIndicatorSystem",
@@ -9292,112 +9308,112 @@ const REMOVED_ASSETS = [
     "publisher": "hugp1973"
   },
   {
-    "name": "hugp1973",
-    "publisher": "UI Dial Plate"
+    "name": "UIDrawLine UI line drawing , support windows, MAC, Linux, Android and",
+    "publisher": "hugp1973"
   },
   {
-    "name": "hugp1973",
-    "publisher": "SDF Font"
+    "name": "UI Dial Plate",
+    "publisher": "hugp1973"
   },
   {
-    "name": "hugp1973",
-    "publisher": "Particle Spread"
+    "name": "SDF Font",
+    "publisher": "hugp1973"
   },
   {
-    "name": "hugp1973",
-    "publisher": "Optimized A* Pathfinding"
+    "name": "Particle Spread",
+    "publisher": "hugp1973"
   },
   {
-    "name": "hugp1973",
-    "publisher": "Easy Outline"
+    "name": "Optimized A* Pathfinding",
+    "publisher": "hugp1973"
   },
   {
-    "name": "hugp1973",
-    "publisher": "B*Pathfinding"
+    "name": "Easy Outline",
+    "publisher": "hugp1973"
   },
   {
-    "name": "husunren",
-    "publisher": "Asset Locator"
+    "name": "B*Pathfinding",
+    "publisher": "husunren"
   },
   {
-    "name": "i50Games",
-    "publisher": "UI mask blur"
+    "name": "Asset Locator",
+    "publisher": "50Games"
   },
   {
-    "name": "iowen",
-    "publisher": "Infinite Faller"
+    "name": "UI mask blur",
+    "publisher": "iowen"
   },
   {
-    "name": "itefan Studio",
-    "publisher": "Queued Cubes"
+    "name": "Infinite Faller",
+    "publisher": "itefan Studio"
   },
   {
-    "name": "itefan Studio",
-    "publisher": "Easy Paint"
+    "name": "Queued Cubes",
+    "publisher": "itefan Studio"
   },
   {
-    "name": "itefan Studio",
-    "publisher": "MysteriousMansion"
+    "name": "Easy Paint",
+    "publisher": "itefan Studio"
   },
   {
-    "name": "johnzhan",
-    "publisher": "3D High-QualityStylized WeaponFactory"
+    "name": "MysteriousMansion",
+    "publisher": "johnzhan"
   },
   {
-    "name": "johnzhan",
-    "publisher": "FantasyLampsPack"
+    "name": "3D High-QualityStylized WeaponFactory",
+    "publisher": "johnzhan"
   },
   {
-    "name": "johnzhan",
-    "publisher": "3D high-quality stylized weapon Pack"
+    "name": "FantasyLampsPack",
+    "publisher": "johnzhan"
   },
   {
-    "name": "johnzhan",
-    "publisher": "Isometric Tilemap Pro"
+    "name": "3D high-quality stylized weapon Pack",
+    "publisher": "johnzhan"
   },
   {
-    "name": "jxnczyp",
-    "publisher": "Modular Railing Pack"
+    "name": "Isometric Tilemap Pro",
+    "publisher": "jxnczyp"
   },
   {
-    "name": "kcStudio",
-    "publisher": "Slash VFX Collection"
+    "name": "Modular Railing Pack",
+    "publisher": "kcStudio"
   },
   {
-    "name": "kcStudio",
-    "publisher": "Firework VFX"
+    "name": "Slash VFX Collection",
+    "publisher": "kcStudio"
   },
   {
-    "name": "kcStudio",
-    "publisher": "2D Pixel Equipment"
+    "name": "Firework VFX",
+    "publisher": "kcStudio"
   },
   {
-    "name": "kcStudio",
-    "publisher": "Simple 2D Flat Skill Icon"
+    "name": "2D Pixel Equipment",
+    "publisher": "kcStudio"
   },
   {
-    "name": "kcStudio",
-    "publisher": "Tank-M24(Chaffee)"
+    "name": "Simple 2D Flat Skill Icon",
+    "publisher": "kcStudio"
   },
   {
-    "name": "kumapenny",
-    "publisher": "HoloInterior Lite URP"
+    "name": "Tank-M24(Chaffee)",
+    "publisher": "kumapenny"
   },
   {
-    "name": "kyxos",
-    "publisher": "HoloInterior Lite HDRP"
+    "name": "HoloInterior Lite URP",
+    "publisher": "kyxos"
   },
   {
-    "name": "kyxos",
-    "publisher": "HoloInterior Lite Built-in"
+    "name": "HoloInterior Lite HDRP",
+    "publisher": "kyxos"
   },
   {
-    "name": "kyxos",
-    "publisher": "Runtime Debugger + Source Code"
+    "name": "HoloInterior Lite Built-in",
+    "publisher": "kyxos"
   },
   {
-    "name": "laiting",
-    "publisher": "UIDrawLine UI line drawing , support windows, MAC, Linux, Android and"
+    "name": "Runtime Debugger + Source Code",
+    "publisher": "laiting"
   },
   {
     "name": "Runtime Debugger + Inspector + Terminal + Profiler",
@@ -9945,10 +9961,6 @@ const REMOVED_ASSETS = [
   },
   {
     "name": "PBR Chair",
-    "publisher": "sovida"
-  },
-  {
-    "name": "Low Poly PBR Chair",
     "publisher": "sovida"
   },
   {
