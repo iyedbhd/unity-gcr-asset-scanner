@@ -100,6 +100,7 @@ function parseUserAssets(data) {
             if (item.data && item.data.searchMyAssets) {
                 const results = item.data.searchMyAssets.results || [];
                 for (const result of results) {
+                    if (!result) continue;
                     const product = result.product;
                     if (product) {
                         assets.push({
@@ -122,6 +123,7 @@ function parseUserAssets(data) {
     else if (data.data && data.data.searchMyAssets) {
         const results = data.data.searchMyAssets.results || [];
         for (const result of results) {
+            if (!result) continue;
             const product = result.product;
             if (product) {
                 assets.push({
@@ -151,6 +153,7 @@ function parseWishlistItems(data) {
             if (item.data && item.data.wishlist) {
                 const results = item.data.wishlist.results || [];
                 for (const product of results) {
+                    if (!product) continue;
                     items.push({
                         id: product.id,
                         name: product.name,
@@ -165,6 +168,7 @@ function parseWishlistItems(data) {
     } else if (data.data && data.data.wishlist) {
         const results = data.data.wishlist.results || [];
         for (const product of results) {
+            if (!product) continue;
             items.push({
                 id: product.id,
                 name: product.name,
