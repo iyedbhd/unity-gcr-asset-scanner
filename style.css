@@ -568,6 +568,28 @@ pre code {
     color: #7c4dff;
 }
 
+/* Wishlist Section */
+.wishlist-section {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--border-light);
+}
+
+.wishlist-header {
+    margin-bottom: 1rem;
+}
+
+.wishlist-header h3 {
+    color: var(--text);
+    font-size: 1.2rem;
+}
+
+.badge-wishlist {
+    background: #e8f0fe;
+    color: #1967d2;
+    border: 1px solid #1967d2;
+}
+
 /* Footer */
 footer {
     text-align: center;

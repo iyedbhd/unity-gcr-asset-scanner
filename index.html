@@ -127,9 +127,67 @@
   let hidden = await fetchAll("hidden assets", ["#BIN"]);
   let allAssets = [...visible, ...hidden];
   
+  // Fetch wishlist: saved cart + favorites
+  console.log("Fetching wishlist...");
+  let wishlistItems = [];
+  try {
+    let userId = (() => {
+      for (let c of document.cookie.split(";")) {
+        let [n, v] = c.trim().split("=");
+        if (n.trim() === "LS") return v.split("-")[0];
+      }
+      return null;
+    })();
+    
+    let wlRes = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Accept": "application/json, text/plain, */*",
+        "x-csrf-token": csrf,
+        "x-requested-with": "XMLHttpRequest",
+        "x-source": "storefront",
+        "operations": "ShoppingCartQuery,ListDetail"
+      },
+      credentials: "include",
+      body: JSON.stringify([
+        {
+          query: 'query ShoppingCartQuery {\n  currentCart(namespace: "asset_store_saved_cart") {\n    items {\n      product {\n        id\n        name\n        mainImage { icon75 icon __typename }\n        publisher { id name __typename }\n        state\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n',
+          operationName: "ShoppingCartQuery"
+        },
+        {
+          query: 'query ListDetail {\n  listDetail(listId: "favorite") {\n    packages(size: 200) {\n      results {\n        id name\n        publisher { id name __typename }\n        mainImage { icon75 icon __typename }\n        state\n        __typename\n      }\n      total\n      __typename\n    }\n    __typename\n  }\n}\n',
+          operationName: "ListDetail"
+        }
+      ])
+    });
+    let wlData = await wlRes.json();
+    
+    // Saved cart items
+    let cartItems = wlData[0]?.data?.currentCart?.items || [];
+    for (let item of cartItems) {
+      if (item.product) wishlistItems.push(item.product);
+    }
+    
+    // Favorite list items
+    let favItems = wlData[1]?.data?.listDetail?.packages?.results || [];
+    // Deduplicate by id
+    let existingIds = new Set(wishlistItems.map(i => i.id));
+    for (let item of favItems) {
+      if (!existingIds.has(item.id)) wishlistItems.push(item);
+    }
+    
+    console.log("Found " + wishlistItems.length + " wishlist items");
+  } catch(e) {
+    console.log("Could not fetch wishlist:", e.message);
+  }
+  
   // Create download
   let exportData = [{
-    data: { searchMyAssets: { count: allAssets.length, results: allAssets } }
+    data: {
+      searchMyAssets: { count: allAssets.length, results: allAssets },
+      wishlist: { count: wishlistItems.length, results: wishlistItems }
+    }
   }];
   
   let blob = new Blob([JSON.stringify(exportData, null, 2)], {
@@ -140,7 +198,7 @@
   a.download = "myassets.json";
   a.click();
   
-  console.log("Downloaded " + allAssets.length + " assets (" + visible.length + " visible + " + hidden.length + " hidden)!");
+  console.log("Downloaded " + allAssets.length + " assets (" + visible.length + " visible + " + hidden.length + " hidden) + " + wishlistItems.length + " wishlist items!");
 })();</code></pre>
                     </div>
                 </div>
