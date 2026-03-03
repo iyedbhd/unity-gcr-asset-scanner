@@ -1,0 +1,420 @@
+// Unity Asset Removal Scanner - Main JavaScript
+
+// State
+let userAssets = [];
+let matchedAssets = [];
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+    setupFileUpload();
+});
+
+// Copy export script to clipboard (minified version for easy pasting)
+function copyScript() {
+    // Minified script for copying - the readable version is shown in the HTML
+    const minified = `(async function(){const e="https://assetstore.unity.com/api/graphql/batch",c=(()=>{for(let c of document.cookie.split(";")){let[n,v]=c.trim().split("=");if(n==="_csrf")return decodeURIComponent(v)}return null})();if(!c){console.error("CSRF not found!");return}const t="query SearchMyAssets($page: Int, $pageSize: Int, $q: [String], $tagging: [String!], $assignFrom: [String!], $ids: [String!], $sortBy: Int, $reverse: Boolean, $other: String) {\\n  searchMyAssets(page: $page, pageSize: $pageSize, q: $q, tagging: $tagging, assignFrom: $assignFrom, ids: $ids, sortBy: $sortBy, reverse: $reverse, other: $other) {\\n    results {\\n      id\\n      orderId\\n      grantTime\\n      tagging\\n      assignFrom\\n      product {\\n        id\\n        productId\\n        itemId\\n        name\\n        mainImage {\\n          icon75\\n          icon\\n          __typename\\n        }\\n        publisher {\\n          id\\n          name\\n          __typename\\n        }\\n        publishNotes\\n        state\\n        currentVersion {\\n          name\\n          publishedDate\\n          __typename\\n        }\\n        downloadSize\\n        __typename\\n      }\\n      __typename\\n    }\\n    organizations\\n    total\\n    __typename\\n  }\\n}\\n";async function n(p){return(await(await fetch(e,{method:"POST",headers:{"Content-Type":"application/json;charset=UTF-8","Accept":"application/json, text/plain, */*","x-csrf-token":c,"x-requested-with":"XMLHttpRequest","x-source":"storefront","operations":"SearchMyAssets"},credentials:"include",body:JSON.stringify([{query:t,variables:{page:p,pageSize:100,q:[],tagging:[],ids:[],assignFrom:[],sortBy:7},operationName:"SearchMyAssets"}])})).json())[0]}console.log("Fetching...");let a=await n(0),s=a.data.searchMyAssets.total,r=Math.ceil(s/100),o=[...a.data.searchMyAssets.results];for(let p=1;p<r;p++){console.log("Page "+(p+1)+"/"+r);o.push(...(await n(p)).data.searchMyAssets.results);await new Promise(r=>setTimeout(r,300))}let l=[{data:{searchMyAssets:{count:s,results:o}}}],i=document.createElement("a");i.href=URL.createObjectURL(new Blob([JSON.stringify(l,null,2)],{type:"application/json"}));i.download="myassets.json";i.click();console.log("Downloaded "+o.length+" assets!")})();`;
+    
+    navigator.clipboard.writeText(minified).then(() => {
+        const btn = document.querySelector('.copy-btn');
+        btn.textContent = '✓ Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+            btn.textContent = '📋 Copy Script';
+            btn.classList.remove('copied');
+        }, 2000);
+    });
+}
+
+// File upload handling
+function setupFileUpload() {
+    const uploadArea = document.getElementById('upload-area');
+    const fileInput = document.getElementById('file-input');
+
+    // Drag and drop
+    uploadArea.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        uploadArea.classList.add('drag-over');
+    });
+
+    uploadArea.addEventListener('dragleave', () => {
+        uploadArea.classList.remove('drag-over');
+    });
+
+    uploadArea.addEventListener('drop', (e) => {
+        e.preventDefault();
+        uploadArea.classList.remove('drag-over');
+        const file = e.dataTransfer.files[0];
+        if (file) handleFile(file);
+    });
+
+    // Click to upload
+    uploadArea.addEventListener('click', () => {
+        fileInput.click();
+    });
+
+    fileInput.addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (file) handleFile(file);
+    });
+}
+
+// Handle uploaded file
+function handleFile(file) {
+    if (!file.name.endsWith('.json')) {
+        alert('Please upload a JSON file');
+        return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+        try {
+            const data = JSON.parse(e.target.result);
+            userAssets = parseUserAssets(data);
+            
+            // Show file info
+            const fileInfo = document.getElementById('file-info');
+            fileInfo.innerHTML = `✅ <strong>${file.name}</strong> loaded - Found <strong>${userAssets.length}</strong> assets`;
+            fileInfo.classList.remove('hidden');
+            
+            // Run scanner
+            scanAssets();
+        } catch (err) {
+            alert('Error parsing JSON file: ' + err.message);
+            console.error(err);
+        }
+    };
+    reader.readAsText(file);
+}
+
+// Parse user assets from Unity export format
+function parseUserAssets(data) {
+    const assets = [];
+    
+    // Handle array format (from export script)
+    if (Array.isArray(data)) {
+        for (const item of data) {
+            if (item.data && item.data.searchMyAssets) {
+                const results = item.data.searchMyAssets.results || [];
+                for (const result of results) {
+                    const product = result.product;
+                    if (product) {
+                        assets.push({
+                            id: product.id,
+                            productId: product.productId,
+                            itemId: product.itemId,
+                            name: product.name,
+                            publisher: product.publisher?.name || 'Unknown',
+                            publisherId: product.publisher?.id,
+                            icon: product.mainImage?.icon75 || product.mainImage?.icon,
+                            state: product.state,
+                            grantTime: result.grantTime
+                        });
+                    }
+                }
+            }
+        }
+    }
+    // Handle direct object format
+    else if (data.data && data.data.searchMyAssets) {
+        const results = data.data.searchMyAssets.results || [];
+        for (const result of results) {
+            const product = result.product;
+            if (product) {
+                assets.push({
+                    id: product.id,
+                    productId: product.productId,
+                    itemId: product.itemId,
+                    name: product.name,
+                    publisher: product.publisher?.name || 'Unknown',
+                    publisherId: product.publisher?.id,
+                    icon: product.mainImage?.icon75 || product.mainImage?.icon,
+                    state: product.state,
+                    grantTime: result.grantTime
+                });
+            }
+        }
+    }
+    
+    return assets;
+}
+
+// Normalize string for comparison
+function normalize(str) {
+    if (!str) return '';
+    return str.toLowerCase()
+        .replace(/[^\w\s]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+// Scan assets against removal list
+function scanAssets() {
+    matchedAssets = [];
+    
+    // Check if removal data is loaded
+    if (typeof REMOVED_ASSETS === 'undefined' || !REMOVED_ASSETS.length) {
+        console.error('Removal assets data not loaded');
+        return;
+    }
+
+    // Create lookup maps for removed assets
+    const removedByName = new Map();
+    const removedByPublisher = new Map();
+    
+    for (const removed of REMOVED_ASSETS) {
+        if (removed.name) {
+            const normalizedName = normalize(removed.name);
+            removedByName.set(normalizedName, removed);
+        }
+        if (removed.publisher) {
+            const normalizedPub = normalize(removed.publisher);
+            if (!removedByPublisher.has(normalizedPub)) {
+                removedByPublisher.set(normalizedPub, []);
+            }
+            removedByPublisher.get(normalizedPub).push(removed);
+        }
+    }
+
+    // Check each user asset
+    for (const asset of userAssets) {
+        const normalizedName = normalize(asset.name);
+        const normalizedPublisher = normalize(asset.publisher);
+        
+        let match = null;
+        let matchType = null;
+
+        // Try exact name match first
+        if (removedByName.has(normalizedName)) {
+            match = removedByName.get(normalizedName);
+            matchType = 'exact';
+        }
+        
+        // Try partial name match
+        if (!match) {
+            for (const [removedName, removed] of removedByName) {
+                if (removedName.length > 10 && normalizedName.length > 10) {
+                    if (removedName.includes(normalizedName) || normalizedName.includes(removedName)) {
+                        match = removed;
+                        matchType = 'partial';
+                        break;
+                    }
+                }
+            }
+        }
+
+        // Check if publisher is being removed (all their assets)
+        if (!match && removedByPublisher.has(normalizedPublisher)) {
+            const publisherAssets = removedByPublisher.get(normalizedPublisher);
+            // Check if this specific asset name appears
+            for (const removed of publisherAssets) {
+                if (normalize(removed.name) === normalizedName) {
+                    match = removed;
+                    matchType = 'publisher+name';
+                    break;
+                }
+            }
+        }
+
+        if (match) {
+            matchedAssets.push({
+                asset: asset,
+                removedEntry: match,
+                matchType: matchType
+            });
+        }
+    }
+
+    // Display results
+    displayResults();
+}
+
+// Display scan results
+function displayResults() {
+    const resultsDiv = document.getElementById('results');
+    const placeholder = document.getElementById('results-placeholder');
+    
+    placeholder.classList.add('hidden');
+    resultsDiv.classList.remove('hidden');
+    
+    const totalAssets = userAssets.length;
+    const affectedCount = matchedAssets.length;
+    const safeCount = totalAssets - affectedCount;
+    const percentAffected = totalAssets > 0 ? ((affectedCount / totalAssets) * 100).toFixed(1) : 0;
+    
+    // Count refund eligible
+    let refundEligibleCount = 0;
+    for (const match of matchedAssets) {
+        const info = getAcquisitionInfo(match.asset.grantTime);
+        if (info.eligible) refundEligibleCount++;
+    }
+
+    let html = `
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">${totalAssets}</div>
+                <div class="stat-label">Total Assets</div>
+            </div>
+            <div class="stat-card danger">
+                <div class="stat-value">${affectedCount}</div>
+                <div class="stat-label">Being Removed</div>
+            </div>
+            <div class="stat-card success">
+                <div class="stat-value">${safeCount}</div>
+                <div class="stat-label">Safe</div>
+            </div>
+            <div class="stat-card warning">
+                <div class="stat-value">${refundEligibleCount}</div>
+                <div class="stat-label">Refund Eligible</div>
+            </div>
+        </div>
+    `;
+
+    if (affectedCount > 0) {
+        html += `
+            <div class="alert alert-danger">
+                <span class="alert-icon">⚠️</span>
+                <div>
+                    <strong>Warning!</strong> ${affectedCount} of your assets will be removed on March 31st, 2026.
+                    <br>Download them before the deadline to keep access.
+                </div>
+            </div>
+            
+            <div class="asset-list-header">
+                <h3>Assets Being Removed (${affectedCount})</h3>
+                <button class="download-btn" onclick="downloadReport()">📥 Download Report</button>
+            </div>
+            
+            <div class="asset-list">
+        `;
+        
+        if (refundEligibleCount > 0) {
+            html += `
+                <div class="alert alert-warning">
+                    <span class="alert-icon">💰</span>
+                    <div>
+                        <strong>${refundEligibleCount} asset${refundEligibleCount > 1 ? 's' : ''} eligible for refund!</strong>
+                        <br>These were purchased within the last 6 months. Look for the green "Refund Eligible" badge below.
+                    </div>
+                </div>
+            `;
+        }
+
+        for (const match of matchedAssets) {
+            const asset = match.asset;
+            const icon = asset.icon ? (asset.icon.startsWith('//') ? 'https:' + asset.icon : asset.icon) : '';
+            const assetUrl = `https://assetstore.unity.com/packages/slug/${asset.id}`;
+            const acqInfo = getAcquisitionInfo(asset.grantTime);
+            
+            const refundBadge = acqInfo.eligible 
+                ? `<span class="asset-badge badge-success">Refund Eligible (${acqInfo.daysUntilExpiry} days left)</span>`
+                : '';
+            
+            html += `
+                <div class="asset-item ${acqInfo.eligible ? 'refund-eligible' : ''}">
+                    ${icon ? `<img src="${icon}" alt="" class="asset-icon" onerror="this.style.display='none'">` : '<div class="asset-icon"></div>'}
+                    <div class="asset-info">
+                        <div class="asset-name">
+                            <a href="${assetUrl}" target="_blank">${escapeHtml(asset.name)}</a>
+                        </div>
+                        <div class="asset-publisher">by ${escapeHtml(asset.publisher)}</div>
+                        <div class="asset-acquired">Acquired: ${acqInfo.text} (${acqInfo.date})</div>
+                    </div>
+                    <div class="asset-badges">
+                        ${refundBadge}
+                        <span class="asset-badge badge-danger">Removing</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        html += `</div>`;
+    } else {
+        html += `
+            <div class="alert alert-success">
+                <span class="alert-icon">✅</span>
+                <div>
+                    <strong>Good news!</strong> None of your assets appear to be on the removal list.
+                    <br>Your library is safe!
+                </div>
+            </div>
+        `;
+    }
+
+    resultsDiv.innerHTML = html;
+}
+
+// Download report as JSON
+function downloadReport() {
+    const report = {
+        generatedAt: new Date().toISOString(),
+        summary: {
+            totalAssets: userAssets.length,
+            affectedAssets: matchedAssets.length,
+            safeAssets: userAssets.length - matchedAssets.length,
+            refundEligible: matchedAssets.filter(m => getAcquisitionInfo(m.asset.grantTime).eligible).length
+        },
+        affectedAssets: matchedAssets.map(m => {
+            const acqInfo = getAcquisitionInfo(m.asset.grantTime);
+            return {
+                name: m.asset.name,
+                publisher: m.asset.publisher,
+                id: m.asset.id,
+                url: `https://assetstore.unity.com/packages/slug/${m.asset.id}`,
+                matchType: m.matchType,
+                acquiredOn: acqInfo.date,
+                acquiredAgo: acqInfo.text,
+                refundEligible: acqInfo.eligible
+            };
+        })
+    };
+
+    const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `unity-removal-scan-${new Date().toISOString().split('T')[0]}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+}
+
+// Escape HTML
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+// Calculate time since acquisition and refund eligibility
+function getAcquisitionInfo(grantTime) {
+    if (!grantTime) return { text: 'Unknown', eligible: false };
+    
+    const acquired = new Date(grantTime);
+    const now = new Date();
+    const diffMs = now - acquired;
+    const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+    const diffMonths = Math.floor(diffDays / 30);
+    const diffYears = Math.floor(diffDays / 365);
+    const sixMonthMs = 6 * 30 * 24 * 60 * 60 * 1000;
+    const eligible = diffMs <= sixMonthMs;
+    const daysUntilExpiry = eligible ? Math.ceil((sixMonthMs - diffMs) / (1000 * 60 * 60 * 24)) : 0;
+    
+    let text;
+    if (diffDays < 1) {
+        text = 'Today';
+    } else if (diffDays === 1) {
+        text = '1 day ago';
+    } else if (diffDays < 30) {
+        text = `${diffDays} days ago`;
+    } else if (diffMonths === 1) {
+        text = '1 month ago';
+    } else if (diffMonths < 12) {
+        text = `${diffMonths} months ago`;
+    } else if (diffYears === 1) {
+        const remainingMonths = diffMonths - 12;
+        text = remainingMonths > 0 ? `1 year, ${remainingMonths} months ago` : '1 year ago';
+    } else {
+        text = `${diffYears} years ago`;
+    }
+    
+    return { text, eligible, daysUntilExpiry, date: acquired.toLocaleDateString() };
+}

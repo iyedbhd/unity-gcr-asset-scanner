@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity GCR Asset Scanner</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔍</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Unity GCR Asset Scanner</h1>
+            <p class="subtitle">Check which of your assets from <strong>Greater China Region</strong> publishers will be removed on <strong>March 31st, 2026</strong></p>
+            <p class="info-note">Due to updated regional licensing, distribution, and compliance policy requirements, assets from publishers based in Greater China Region (including Hong Kong and Macau) will be removed from the Global Unity Asset Store.</p>
+        </header>
+
+        <main>
+            <!-- Step 1: Get Assets -->
+            <section class="step" id="step1">
+                <div class="step-header">
+                    <span class="step-number">1</span>
+                    <h2>Export Your Assets</h2>
+                </div>
+                <div class="step-content">
+                    <p>First, you need to export your assets from Unity Asset Store. Follow these steps:</p>
+                    <ol class="instructions">
+                        <li>Go to <a href="https://assetstore.unity.com/account/assets" target="_blank">Unity Asset Store - My Assets</a></li>
+                        <li>Make sure you're <strong>logged in</strong></li>
+                        <li>Press <kbd>F12</kbd> to open Chrome DevTools</li>
+                        <li>Go to the <strong>Console</strong> tab</li>
+                        <li>Copy the script below and paste it in the console</li>
+                        <li>Press <kbd>Enter</kbd> and wait for the download</li>
+                    </ol>
+                    <div class="code-container">
+                        <button class="copy-btn" onclick="copyScript()">📋 Copy Script</button>
+                        <pre id="export-script"><code>(async function(){
+  const endpoint = "https://assetstore.unity.com/api/graphql/batch";
+  
+  // Get CSRF token from cookies
+  const csrf = (() => {
+    for (let c of document.cookie.split(";")) {
+      let [n, v] = c.trim().split("=");
+      if (n === "_csrf") return decodeURIComponent(v);
+    }
+    return null;
+  })();
+  
+  if (!csrf) {
+    console.error("CSRF token not found! Make sure you're logged in.");
+    return;
+  }
+  
+  // GraphQL query
+  const query = `query SearchMyAssets($page: Int, $pageSize: Int, $q: [String], 
+    $tagging: [String!], $assignFrom: [String!], $ids: [String!], 
+    $sortBy: Int, $reverse: Boolean, $other: String) {
+    searchMyAssets(page: $page, pageSize: $pageSize, q: $q, tagging: $tagging, 
+      assignFrom: $assignFrom, ids: $ids, sortBy: $sortBy, reverse: $reverse, 
+      other: $other) {
+      results {
+        id orderId grantTime tagging assignFrom
+        product {
+          id productId itemId name
+          mainImage { icon75 icon __typename }
+          publisher { id name __typename }
+          publishNotes state
+          currentVersion { name publishedDate __typename }
+          downloadSize __typename
+        }
+        __typename
+      }
+      total __typename
+    }
+  }`;
+  
+  // Fetch a page of assets
+  async function fetchPage(page) {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Accept": "application/json, text/plain, */*",
+        "x-csrf-token": csrf,
+        "x-requested-with": "XMLHttpRequest",
+        "x-source": "storefront",
+        "operations": "SearchMyAssets"
+      },
+      credentials: "include",
+      body: JSON.stringify([{
+        query: query,
+        variables: {
+          page: page,
+          pageSize: 100,
+          q: [],
+          tagging: [],
+          ids: [],
+          assignFrom: [],
+          sortBy: 7
+        },
+        operationName: "SearchMyAssets"
+      }])
+    });
+    return (await response.json())[0];
+  }
+  
+  console.log("Fetching your assets...");
+  
+  // Get first page to find total
+  let firstPage = await fetchPage(0);
+  let total = firstPage.data.searchMyAssets.total;
+  let pages = Math.ceil(total / 100);
+  let allAssets = [...firstPage.data.searchMyAssets.results];
+  
+  // Fetch remaining pages
+  for (let p = 1; p &lt; pages; p++) {
+    console.log("Page " + (p + 1) + "/" + pages);
+    let pageData = await fetchPage(p);
+    allAssets.push(...pageData.data.searchMyAssets.results);
+    await new Promise(r => setTimeout(r, 300)); // Rate limit
+  }
+  
+  // Create download
+  let exportData = [{
+    data: { searchMyAssets: { count: total, results: allAssets } }
+  }];
+  
+  let blob = new Blob([JSON.stringify(exportData, null, 2)], {
+    type: "application/json"
+  });
+  let a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "myassets.json";
+  a.click();
+  
+  console.log("Downloaded " + allAssets.length + " assets!");
+})();</code></pre>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Step 2: Upload JSON -->
+            <section class="step" id="step2">
+                <div class="step-header">
+                    <span class="step-number">2</span>
+                    <h2>Upload Your Assets File</h2>
+                </div>
+                <div class="step-content">
+                    <p>Upload the <code>myassets.json</code> file you just downloaded:</p>
+                    <div class="upload-area" id="upload-area">
+                        <input type="file" id="file-input" accept=".json" hidden>
+                        <div class="upload-icon">📁</div>
+                        <p>Drop your <strong>myassets.json</strong> here</p>
+                        <p class="or">or</p>
+                        <button class="btn btn-primary" onclick="document.getElementById('file-input').click()">Browse Files</button>
+                    </div>
+                    <div id="file-info" class="file-info hidden"></div>
+                </div>
+            </section>
+
+            <!-- Step 3: Results -->
+            <section class="step" id="step3">
+                <div class="step-header">
+                    <span class="step-number">3</span>
+                    <h2>Scan Results</h2>
+                </div>
+                <div class="step-content">
+                    <div id="results-placeholder" class="results-placeholder">
+                        <p>Upload your assets file to see the scan results</p>
+                    </div>
+                    <div id="results" class="results hidden">
+                        <!-- Results will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Refund Info -->
+        <section class="refund-info">
+            <h3>💰 Refund Information</h3>
+            <p>If you purchased an affected asset <strong>within the past 6 months</strong>, you can request a refund (exception to normal refund policy).</p>
+            <p>After a refund is issued, you will lose entitlement to that asset.</p>
+            <p><strong>Important:</strong> Your license to use these assets remains valid. You can continue using them in your projects and download via Package Manager. However, publishers will no longer provide updates or support after March 31st.</p>
+        </section>
+
+        <footer>
+            <p>
+                <strong>Disclaimer:</strong> This tool is provided as-is. Always verify important information directly with Unity.
+                <br>
+                Data sourced from Unity's official announcement. Last updated: March 2026.
+            </p>
+            <p>
+                <a href="https://github.com/iyedbhd/unity-gcr-asset-scanner" target="_blank">⭐ Star on GitHub</a> |
+                <a href="https://assetstore.unity.com/" target="_blank">Unity Asset Store</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="removed_assets_data.js"></script>
+    <script src="scanner.js"></script>
+</body>
+</html>
