@@ -1,20 +1,28 @@
-/* Unity Asset Removal Scanner - Styles */
+/* Unity Asset Removal Scanner - White Unity Theme */
 
 :root {
-    --primary: #00d9ff;
-    --primary-dark: #00a8c7;
-    --danger: #ff4757;
-    --danger-light: #ff6b7a;
-    --warning: #ffa502;
-    --success: #2ed573;
-    --bg-dark: #1a1a2e;
-    --bg-darker: #16162a;
-    --bg-card: #222240;
-    --bg-card-hover: #2a2a4a;
-    --text: #e8e8e8;
-    --text-muted: #8892b0;
-    --border: #3a3a5a;
-    --code-bg: #0d0d1a;
+    --primary: #1a6b8a;
+    --primary-light: #2196c4;
+    --primary-bg: #e8f4f8;
+    --danger: #d32f2f;
+    --danger-light: #ef5350;
+    --danger-bg: #fdecea;
+    --warning: #ed6c02;
+    --warning-bg: #fff4e5;
+    --success: #2e7d32;
+    --success-bg: #edf7ed;
+    --bg-body: #f4f4f4;
+    --bg-white: #ffffff;
+    --bg-light: #fafafa;
+    --bg-hover: #f0f0f0;
+    --text: #222222;
+    --text-secondary: #555555;
+    --text-muted: #888888;
+    --border: #d6d6d6;
+    --border-light: #e8e8e8;
+    --code-bg: #f5f5f5;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 * {
@@ -25,7 +33,7 @@
 
 body {
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-darker) 100%);
+    background: var(--bg-body);
     color: var(--text);
     min-height: 100vh;
     line-height: 1.6;
@@ -46,14 +54,11 @@ header {
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
-    background: linear-gradient(90deg, var(--primary), #a855f7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--text);
 }
 
 .subtitle {
-    color: var(--text-muted);
+    color: var(--text-secondary);
     font-size: 1.1rem;
 }
 
@@ -64,23 +69,43 @@ header h1 {
 .info-note {
     margin-top: 1rem;
     padding: 1rem;
-    background: rgba(255, 165, 2, 0.1);
+    background: var(--warning-bg);
     border-left: 3px solid var(--warning);
     border-radius: 0 8px 8px 0;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     font-size: 0.95rem;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.pdf-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background: var(--bg-white);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+}
+
+.pdf-link:hover {
+    background: var(--primary);
+    color: #ffffff;
+}
+
 /* Refund Info Section */
 .refund-info {
-    background: var(--bg-card);
+    background: var(--bg-white);
     border-radius: 12px;
     padding: 1.5rem;
     margin-bottom: 2rem;
     border: 1px solid var(--border);
+    box-shadow: var(--shadow);
 }
 
 .refund-info h3 {
@@ -89,7 +114,7 @@ header h1 {
 }
 
 .refund-info p {
-    color: var(--text-muted);
+    color: var(--text-secondary);
     margin-bottom: 0.5rem;
 }
 
@@ -99,11 +124,12 @@ header h1 {
 
 /* Steps */
 .step {
-    background: var(--bg-card);
+    background: var(--bg-white);
     border-radius: 12px;
     margin-bottom: 1.5rem;
     border: 1px solid var(--border);
     overflow: hidden;
+    box-shadow: var(--shadow);
 }
 
 .step-header {
@@ -111,8 +137,8 @@ header h1 {
     align-items: center;
     gap: 1rem;
     padding: 1rem 1.5rem;
-    background: rgba(0, 217, 255, 0.05);
-    border-bottom: 1px solid var(--border);
+    background: var(--bg-light);
+    border-bottom: 1px solid var(--border-light);
 }
 
 .step-number {
@@ -122,7 +148,7 @@ header h1 {
     width: 32px;
     height: 32px;
     background: var(--primary);
-    color: var(--bg-dark);
+    color: #ffffff;
     font-weight: bold;
     border-radius: 50%;
     font-size: 0.9rem;
@@ -145,7 +171,7 @@ header h1 {
 
 .instructions li {
     margin-bottom: 0.5rem;
-    color: var(--text-muted);
+    color: var(--text-secondary);
 }
 
 .instructions a {
@@ -164,6 +190,7 @@ kbd {
     font-family: monospace;
     font-size: 0.9em;
     border: 1px solid var(--border);
+    color: var(--text);
 }
 
 /* Code Container */
@@ -177,7 +204,7 @@ kbd {
     top: 0.5rem;
     right: 0.5rem;
     background: var(--primary);
-    color: var(--bg-dark);
+    color: #ffffff;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 6px;
@@ -188,16 +215,18 @@ kbd {
 }
 
 .copy-btn:hover {
-    background: var(--primary-dark);
+    background: var(--primary-light);
     transform: translateY(-1px);
 }
 
 .copy-btn.copied {
     background: var(--success);
+    color: #ffffff;
 }
 
 pre {
     background: var(--code-bg);
+    color: var(--text);
     padding: 1rem;
     border-radius: 8px;
     overflow-x: auto;
@@ -208,7 +237,7 @@ pre {
 pre code {
     font-family: 'Fira Code', 'Consolas', monospace;
     font-size: 0.75rem;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     white-space: pre-wrap;
     word-break: break-all;
 }
@@ -221,13 +250,13 @@ pre code {
     text-align: center;
     cursor: pointer;
     transition: all 0.3s;
-    background: rgba(0, 217, 255, 0.02);
+    background: var(--bg-light);
 }
 
 .upload-area:hover,
 .upload-area.drag-over {
     border-color: var(--primary);
-    background: rgba(0, 217, 255, 0.05);
+    background: var(--primary-bg);
 }
 
 .upload-icon {
@@ -236,7 +265,7 @@ pre code {
 }
 
 .upload-area p {
-    color: var(--text-muted);
+    color: var(--text-secondary);
     margin-bottom: 0.5rem;
 }
 
@@ -258,11 +287,11 @@ pre code {
 
 .btn-primary {
     background: var(--primary);
-    color: var(--bg-dark);
+    color: #ffffff;
 }
 
 .btn-primary:hover {
-    background: var(--primary-dark);
+    background: var(--primary-light);
     transform: translateY(-2px);
 }
 
@@ -270,12 +299,13 @@ pre code {
 .file-info {
     margin-top: 1rem;
     padding: 1rem;
-    background: rgba(46, 213, 115, 0.1);
+    background: var(--success-bg);
     border: 1px solid var(--success);
     border-radius: 8px;
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    color: var(--text);
 }
 
 .file-info.hidden {
@@ -286,6 +316,10 @@ pre code {
 .results-placeholder {
     text-align: center;
     padding: 3rem;
+    color: var(--text-muted);
+}
+
+.results-placeholder p {
     color: var(--text-muted);
 }
 
@@ -302,26 +336,32 @@ pre code {
 }
 
 .stat-card {
-    background: var(--bg-darker);
+    background: var(--bg-white);
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
     border: 1px solid var(--border);
+    box-shadow: var(--shadow);
 }
 
 .stat-card.danger {
     border-color: var(--danger);
-    background: rgba(255, 71, 87, 0.1);
+    background: var(--danger-bg);
 }
 
 .stat-card.success {
     border-color: var(--success);
-    background: rgba(46, 213, 115, 0.1);
+    background: var(--success-bg);
 }
 
 .stat-card.warning {
     border-color: var(--warning);
-    background: rgba(255, 165, 2, 0.1);
+    background: var(--warning-bg);
+}
+
+.stat-card.potential {
+    border-color: #7c4dff;
+    background: #f3edff;
 }
 
 .stat-value {
@@ -341,6 +381,10 @@ pre code {
     color: var(--warning);
 }
 
+.stat-card.potential .stat-value {
+    color: #7c4dff;
+}
+
 .stat-label {
     color: var(--text-muted);
     font-size: 0.9rem;
@@ -358,13 +402,13 @@ pre code {
 }
 
 .alert-danger {
-    background: rgba(255, 71, 87, 0.15);
+    background: var(--danger-bg);
     border: 1px solid var(--danger);
-    color: var(--danger-light);
+    color: var(--danger);
 }
 
 .alert-success {
-    background: rgba(46, 213, 115, 0.15);
+    background: var(--success-bg);
     border: 1px solid var(--success);
     color: var(--success);
 }
@@ -386,7 +430,7 @@ pre code {
 }
 
 .download-btn {
-    background: var(--bg-darker);
+    background: var(--bg-white);
     color: var(--text);
     border: 1px solid var(--border);
     padding: 0.5rem 1rem;
@@ -397,7 +441,7 @@ pre code {
 }
 
 .download-btn:hover {
-    background: var(--bg-card-hover);
+    background: var(--bg-hover);
     border-color: var(--primary);
 }
 
@@ -412,15 +456,17 @@ pre code {
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    background: var(--bg-darker);
+    background: var(--bg-white);
     border-radius: 8px;
-    border: 1px solid var(--border);
+    border: 1px solid var(--border-light);
     transition: all 0.2s;
+    box-shadow: var(--shadow);
 }
 
 .asset-item:hover {
     border-color: var(--danger);
-    background: rgba(255, 71, 87, 0.05);
+    background: var(--danger-bg);
+    box-shadow: var(--shadow-md);
 }
 
 .asset-icon {
@@ -428,7 +474,7 @@ pre code {
     height: 48px;
     border-radius: 8px;
     object-fit: cover;
-    background: var(--bg-card);
+    background: var(--bg-light);
 }
 
 .asset-info {
@@ -469,13 +515,27 @@ pre code {
 }
 
 .badge-danger {
-    background: rgba(255, 71, 87, 0.2);
+    background: var(--danger-bg);
     color: var(--danger);
+    border: 1px solid var(--danger);
 }
 
 .badge-success {
-    background: rgba(46, 213, 115, 0.2);
+    background: var(--success-bg);
     color: var(--success);
+    border: 1px solid var(--success);
+}
+
+.badge-exact {
+    background: var(--primary-bg);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.badge-partial {
+    background: var(--warning-bg);
+    color: var(--warning);
+    border: 1px solid var(--warning);
 }
 
 .asset-badges {
@@ -493,16 +553,19 @@ pre code {
 
 .asset-item.refund-eligible {
     border-left: 3px solid var(--success);
-    background: rgba(46, 213, 115, 0.05);
+    background: var(--success-bg);
 }
 
 .alert-warning {
-    background: rgba(255, 165, 2, 0.1);
-    border-color: var(--warning);
+    background: var(--warning-bg);
+    border: 1px solid var(--warning);
+    color: var(--warning);
 }
 
-.alert-warning .alert-icon {
-    background: rgba(255, 165, 2, 0.2);
+.alert-potential {
+    background: #f3edff;
+    border: 1px solid #7c4dff;
+    color: #7c4dff;
 }
 
 /* Footer */
@@ -510,7 +573,7 @@ footer {
     text-align: center;
     margin-top: 3rem;
     padding-top: 2rem;
-    border-top: 1px solid var(--border);
+    border-top: 1px solid var(--border-light);
     color: var(--text-muted);
     font-size: 0.9rem;
 }
@@ -546,7 +609,7 @@ footer a:hover {
 .spinner {
     width: 20px;
     height: 20px;
-    border: 2px solid var(--border);
+    border: 2px solid var(--border-light);
     border-top-color: var(--primary);
     border-radius: 50%;
     animation: spin 0.8s linear infinite;

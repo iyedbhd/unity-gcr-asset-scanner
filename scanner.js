@@ -228,6 +228,44 @@ function scanAssets() {
     displayResults();
 }
 
+// Render a single asset item
+function renderAssetItem(match) {
+    const asset = match.asset;
+    const icon = asset.icon ? (asset.icon.startsWith('//') ? 'https:' + asset.icon : asset.icon) : '';
+    const assetUrl = `https://assetstore.unity.com/packages/slug/${asset.id}`;
+    const acqInfo = getAcquisitionInfo(asset.grantTime);
+    
+    const refundBadge = acqInfo.eligible 
+        ? `<span class="asset-badge badge-success">Refund Eligible (${acqInfo.daysUntilExpiry} days left)</span>`
+        : '';
+    
+    const matchLabel = match.matchType === 'exact' ? 'Exact Match' 
+        : match.matchType === 'publisher+name' ? 'Exact Match' 
+        : 'Partial Match';
+    const matchBadgeClass = match.matchType === 'partial' ? 'badge-partial' : 'badge-exact';
+    const removingBadge = match.matchType !== 'partial' 
+        ? '<span class="asset-badge badge-danger">Removing</span>' 
+        : '';
+    
+    return `
+        <div class="asset-item ${acqInfo.eligible ? 'refund-eligible' : ''}">
+            ${icon ? `<img src="${icon}" alt="" class="asset-icon" onerror="this.style.display='none'">` : '<div class="asset-icon"></div>'}
+            <div class="asset-info">
+                <div class="asset-name">
+                    <a href="${assetUrl}" target="_blank">${escapeHtml(asset.name)}</a>
+                </div>
+                <div class="asset-publisher">by ${escapeHtml(asset.publisher)}</div>
+                <div class="asset-acquired">Acquired: ${acqInfo.text} (${acqInfo.date})</div>
+            </div>
+            <div class="asset-badges">
+                <span class="asset-badge ${matchBadgeClass}">${matchLabel}</span>
+                ${refundBadge}
+                ${removingBadge}
+            </div>
+        </div>
+    `;
+}
+
 // Display scan results
 function displayResults() {
     const resultsDiv = document.getElementById('results');
@@ -237,13 +275,17 @@ function displayResults() {
     resultsDiv.classList.remove('hidden');
     
     const totalAssets = userAssets.length;
-    const affectedCount = matchedAssets.length;
-    const safeCount = totalAssets - affectedCount;
-    const percentAffected = totalAssets > 0 ? ((affectedCount / totalAssets) * 100).toFixed(1) : 0;
     
-    // Count refund eligible
+    // Split into confirmed (exact) and potential (partial) matches
+    const confirmedMatches = matchedAssets.filter(m => m.matchType !== 'partial');
+    const potentialMatches = matchedAssets.filter(m => m.matchType === 'partial');
+    const confirmedCount = confirmedMatches.length;
+    const potentialCount = potentialMatches.length;
+    const safeCount = totalAssets - confirmedCount - potentialCount;
+    
+    // Count refund eligible (only from confirmed)
     let refundEligibleCount = 0;
-    for (const match of matchedAssets) {
+    for (const match of confirmedMatches) {
         const info = getAcquisitionInfo(match.asset.grantTime);
         if (info.eligible) refundEligibleCount++;
     }
@@ -255,8 +297,12 @@ function displayResults() {
                 <div class="stat-label">Total Assets</div>
             </div>
             <div class="stat-card danger">
-                <div class="stat-value">${affectedCount}</div>
+                <div class="stat-value">${confirmedCount}</div>
                 <div class="stat-label">Being Removed</div>
+            </div>
+            <div class="stat-card potential">
+                <div class="stat-value">${potentialCount}</div>
+                <div class="stat-label">Potential</div>
             </div>
             <div class="stat-card success">
                 <div class="stat-value">${safeCount}</div>
@@ -269,18 +315,18 @@ function displayResults() {
         </div>
     `;
 
-    if (affectedCount > 0) {
+    if (confirmedCount > 0) {
         html += `
             <div class="alert alert-danger">
                 <span class="alert-icon">⚠️</span>
                 <div>
-                    <strong>Warning!</strong> ${affectedCount} of your assets will be removed on March 31st, 2026.
+                    <strong>Warning!</strong> ${confirmedCount} of your assets will be removed on March 31st, 2026.
                     <br>Download them before the deadline to keep access.
                 </div>
             </div>
             
             <div class="asset-list-header">
-                <h3>Assets Being Removed (${affectedCount})</h3>
+                <h3>Assets Being Removed (${confirmedCount})</h3>
                 <button class="download-btn" onclick="downloadReport()">📥 Download Report</button>
             </div>
             
@@ -299,36 +345,38 @@ function displayResults() {
             `;
         }
 
-        for (const match of matchedAssets) {
-            const asset = match.asset;
-            const icon = asset.icon ? (asset.icon.startsWith('//') ? 'https:' + asset.icon : asset.icon) : '';
-            const assetUrl = `https://assetstore.unity.com/packages/slug/${asset.id}`;
-            const acqInfo = getAcquisitionInfo(asset.grantTime);
-            
-            const refundBadge = acqInfo.eligible 
-                ? `<span class="asset-badge badge-success">Refund Eligible (${acqInfo.daysUntilExpiry} days left)</span>`
-                : '';
-            
-            html += `
-                <div class="asset-item ${acqInfo.eligible ? 'refund-eligible' : ''}">
-                    ${icon ? `<img src="${icon}" alt="" class="asset-icon" onerror="this.style.display='none'">` : '<div class="asset-icon"></div>'}
-                    <div class="asset-info">
-                        <div class="asset-name">
-                            <a href="${assetUrl}" target="_blank">${escapeHtml(asset.name)}</a>
-                        </div>
-                        <div class="asset-publisher">by ${escapeHtml(asset.publisher)}</div>
-                        <div class="asset-acquired">Acquired: ${acqInfo.text} (${acqInfo.date})</div>
-                    </div>
-                    <div class="asset-badges">
-                        ${refundBadge}
-                        <span class="asset-badge badge-danger">Removing</span>
-                    </div>
-                </div>
-            `;
+        for (const match of confirmedMatches) {
+            html += renderAssetItem(match);
         }
 
         html += `</div>`;
-    } else {
+    }
+
+    if (potentialCount > 0) {
+        html += `
+            <div class="alert alert-potential" style="margin-top: 2rem;">
+                <span class="alert-icon">🔍</span>
+                <div>
+                    <strong>Heads up!</strong> ${potentialCount} of your assets partially match the removal list.
+                    <br>These are not confirmed - verify them manually on the Asset Store.
+                </div>
+            </div>
+            
+            <div class="asset-list-header">
+                <h3>Potential Matches (${potentialCount})</h3>
+            </div>
+            
+            <div class="asset-list">
+        `;
+
+        for (const match of potentialMatches) {
+            html += renderAssetItem(match);
+        }
+
+        html += `</div>`;
+    }
+
+    if (confirmedCount === 0 && potentialCount === 0) {
         html += `
             <div class="alert alert-success">
                 <span class="alert-icon">✅</span>
@@ -349,9 +397,10 @@ function downloadReport() {
         generatedAt: new Date().toISOString(),
         summary: {
             totalAssets: userAssets.length,
-            affectedAssets: matchedAssets.length,
+            confirmedRemovals: matchedAssets.filter(m => m.matchType !== 'partial').length,
+            potentialRemovals: matchedAssets.filter(m => m.matchType === 'partial').length,
             safeAssets: userAssets.length - matchedAssets.length,
-            refundEligible: matchedAssets.filter(m => getAcquisitionInfo(m.asset.grantTime).eligible).length
+            refundEligible: matchedAssets.filter(m => m.matchType !== 'partial' && getAcquisitionInfo(m.asset.grantTime).eligible).length
         },
         affectedAssets: matchedAssets.map(m => {
             const acqInfo = getAcquisitionInfo(m.asset.grantTime);
