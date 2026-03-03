@@ -75,8 +75,8 @@
     }
   }`;
   
-  // Fetch a page of assets
-  async function fetchPage(page) {
+  // Fetch a page of assets with optional tagging filter
+  async function fetchPage(page, tagging = []) {
     const response = await fetch(endpoint, {
       method: "POST",
       headers: {
@@ -94,7 +94,7 @@
           page: page,
           pageSize: 100,
           q: [],
-          tagging: [],
+          tagging: tagging,
           ids: [],
           assignFrom: [],
           sortBy: 7
@@ -105,25 +105,31 @@
     return (await response.json())[0];
   }
   
-  console.log("Fetching your assets...");
-  
-  // Get first page to find total
-  let firstPage = await fetchPage(0);
-  let total = firstPage.data.searchMyAssets.total;
-  let pages = Math.ceil(total / 100);
-  let allAssets = [...firstPage.data.searchMyAssets.results];
-  
-  // Fetch remaining pages
-  for (let p = 1; p &lt; pages; p++) {
-    console.log("Page " + (p + 1) + "/" + pages);
-    let pageData = await fetchPage(p);
-    allAssets.push(...pageData.data.searchMyAssets.results);
-    await new Promise(r => setTimeout(r, 300)); // Rate limit
+  // Fetch all pages for a given tagging filter
+  async function fetchAll(label, tagging) {
+    console.log("Fetching " + label + "...");
+    let first = await fetchPage(0, tagging);
+    let total = first.data.searchMyAssets.total;
+    let pages = Math.ceil(total / 100);
+    let assets = [...first.data.searchMyAssets.results];
+    for (let p = 1; p &lt; pages; p++) {
+      console.log(label + " page " + (p + 1) + "/" + pages);
+      let d = await fetchPage(p, tagging);
+      assets.push(...d.data.searchMyAssets.results);
+      await new Promise(r => setTimeout(r, 300));
+    }
+    console.log("Found " + assets.length + " " + label);
+    return assets;
   }
+  
+  // Fetch visible + hidden assets
+  let visible = await fetchAll("visible assets", []);
+  let hidden = await fetchAll("hidden assets", ["#BIN"]);
+  let allAssets = [...visible, ...hidden];
   
   // Create download
   let exportData = [{
-    data: { searchMyAssets: { count: total, results: allAssets } }
+    data: { searchMyAssets: { count: allAssets.length, results: allAssets } }
   }];
   
   let blob = new Blob([JSON.stringify(exportData, null, 2)], {
@@ -134,7 +140,7 @@
   a.download = "myassets.json";
   a.click();
   
-  console.log("Downloaded " + allAssets.length + " assets!");
+  console.log("Downloaded " + allAssets.length + " assets (" + visible.length + " visible + " + hidden.length + " hidden)!");
 })();</code></pre>
                     </div>
                 </div>
